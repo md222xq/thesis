@@ -1,6 +1,6 @@
 import os
 import openai
-openai.api_key = "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"
+openai.api_key = openai.api_key = os.getenv("OPENAI_API_KEY")
 message=[
     {
         "role": "assistant", 
