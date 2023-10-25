@@ -8,6 +8,8 @@
 
 // File @openzeppelin/contracts/token/ERC20/IERC20.sol@v4.3.2
 
+//https://ftmscan.com/address/0xb95636af7090cc4debb23acb9811ff668f78c304#code
+
 pragma solidity ^0.8.0;
 
 /**
@@ -1137,6 +1139,7 @@ contract MidasShrapDummyToken is ERC20, Ownable, IMidasShrapDummyToken {
         _mint(msg.sender, 1e18);
     }
 }
+
 // File contracts/Interfaces/IBombingRange.sol
 
 pragma solidity ^0.8.10;
