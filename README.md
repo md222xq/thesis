@@ -1,31 +1,5 @@
 # thesis
-# Scientific Experiment
 
-A scientific experiment is a systematic and controlled procedure carried out with the aim of validating, refuting, or establishing the validity of a hypothesis. Experiments provide empirical evidence to understand patterns, test theories, and draw conclusions. They typically involve independent and dependent variables, controls, data collection, and analysis.
-
-
-##  **A step by step description of the experiment and motivations:**
-
-
-
- 1. Prepare Smart Contracts 
-	 1. Gather Source Code
-	 2. Compile Source Code
-	 3. Decompile Source Code with each decompiler.
-2. Prepare prompts to use with LLMs.
-3. Prepare automated testing script to analyze smart contracts using:
-	- OpenAI's GPT4 & 3.5 
-	- Meta's Llama 2
-	- Google's Bard
-4. Run testing script on uncompiled Source Code and gather results.
-5. Run testing script on Decompiled Source Code and gather results.
-6. Present Results
-
-## Dataset
-
-A scientific experiment is a systematic and controlled procedure carried out with the aim of validating, refuting, or establishing the validity of a hypothesis. Experiments provide empirical evidence to understand patterns, test theories, and draw conclusions. They typically involve independent and dependent variables, controls, data collection, and analysis.
-
-A scientific experiment is a research method that systematically investigates relationships between variables under controlled conditions to validate, refute, or establish the validity of a hypothesis. Experiments offer empirical evidence to discern patterns, verify theories, and infer conclusions. The process typically entails defining independent and dependent variables, establishing controls, collecting data, and subsequent analysis.
 
 # Scientific Experiment
 
