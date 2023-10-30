@@ -1,0 +1,69 @@
+[
+{
+  "file_path": "./Contracts/SourceCode/01_signature_replay.sol",
+  "analysis": {
+    "raw_response": "**JSON response:**\n\n```json\n{\n  \"rating\": \"AVOID\",\n  \"reason\": \"This smart contract is vulnerable to signature replay attacks. The `_checkSigs()` function does not check if a signature has been used before, which means that an attacker could replay a valid signature to steal funds from the wallet.\"\n}\n```"
+  }
+},
+{
+  "file_path": "./Contracts/SourceCode/02_reentrancy_fixed_2.sol",
+  "analysis": {
+    "raw_response": "Response Error: b')]}\\'\\n\\n38\\n[[\"wrb.fr\",null,null,null,null,[7]]]\\n56\\n[[\"di\",46],[\"af.httprm\",46,\"-4886130548455253892\",14]]\\n25\\n[[\"e\",4,null,null,131]]\\n'. \nUnable to get response.\nPlease double-check the cookie values and verify your network environment or google account."
+  }
+},
+{
+  "file_path": "./Contracts/SourceCode/03_reentrancy_fixed_1.sol",
+  "analysis": {
+    "raw_response": "**JSON response:**\n\n```json\n{\n  \"rating\": \"SAFE\",\n  \"reason\": \"This smart contract is protected against reentrancy attacks. The `withdrawBalance()` function changes the state variable `userBalance` to 0 before calling the `msg.sender.call()` function. This prevents the attacker from calling the `withdrawBalance()` function recursively and draining the user's balance.\"\n}\n```"
+  }
+},
+{
+  "file_path": "./Contracts/SourceCode/04_reentrancy.sol",
+  "analysis": {
+    "raw_response": "Response Error: b')]}\\'\\n\\n38\\n[[\"wrb.fr\",null,null,null,null,[7]]]\\n53\\n[[\"di\",42],[\"af.httprm\",41,\"37895766275354413\",18]]\\n25\\n[[\"e\",4,null,null,128]]\\n'. \nUnable to get response.\nPlease double-check the cookie values and verify your network environment or google account."
+  }
+},
+{
+  "file_path": "./Contracts/SourceCode/05_randomnumber.sol",
+  "analysis": {
+    "raw_response": "Response Error: b')]}\\'\\n\\n38\\n[[\"wrb.fr\",null,null,null,null,[7]]]\\n55\\n[[\"di\",36],[\"af.httprm\",36,\"1163177662699930210\",17]]\\n25\\n[[\"e\",4,null,null,130]]\\n'. \nUnable to get response.\nPlease double-check the cookie values and verify your network environment or google account."
+  }
+},
+{
+  "file_path": "./Contracts/SourceCode/06_price_manipulation_GammaStrategiesExploit.sol",
+  "analysis": {
+    "raw_response": "Response Error: b')]}\\'\\n\\n38\\n[[\"wrb.fr\",null,null,null,null,[3]]]\\n55\\n[[\"di\",89],[\"af.httprm\",89,\"4600077615557199120\",16]]\\n25\\n[[\"e\",4,null,null,130]]\\n'. \nUnable to get response.\nPlease double-check the cookie values and verify your network environment or google account."
+  }
+},
+{
+  "file_path": "./Contracts/SourceCode/07_math_error_farmingContract.sol",
+  "analysis": {
+    "raw_response": "Response Error: b')]}\\'\\n\\n38\\n[[\"wrb.fr\",null,null,null,null,[7]]]\\n55\\n[[\"di\",46],[\"af.httprm\",45,\"1347010580870364968\",16]]\\n25\\n[[\"e\",4,null,null,130]]\\n'. \nUnable to get response.\nPlease double-check the cookie values and verify your network environment or google account."
+  }
+},
+{
+  "file_path": "./Contracts/SourceCode/08_honeypot_token_2.sol",
+  "analysis": {
+    "raw_response": "Response Error: b')]}\\'\\n\\n38\\n[[\"wrb.fr\",null,null,null,null,[3]]]\\n55\\n[[\"di\",93],[\"af.httprm\",93,\"8512645017027462747\",15]]\\n25\\n[[\"e\",4,null,null,130]]\\n'. \nUnable to get response.\nPlease double-check the cookie values and verify your network environment or google account."
+  }
+},
+{
+  "file_path": "./Contracts/SourceCode/09_honeypot_token.sol",
+  "analysis": {
+    "raw_response": "Response Error: b')]}\\'\\n\\n38\\n[[\"wrb.fr\",null,null,null,null,[7]]]\\n56\\n[[\"di\",43],[\"af.httprm\",42,\"-7469916085038262758\",15]]\\n25\\n[[\"e\",4,null,null,131]]\\n'. \nUnable to get response.\nPlease double-check the cookie values and verify your network environment or google account."
+  }
+},
+{
+  "file_path": "./Contracts/SourceCode/10_delegate_call_2.sol",
+  "analysis": {
+    "raw_response": "**JSON response:**\n\n```json\n{\n  \"rating\": \"AVOID\",\n  \"reason\": \"This smart contract is vulnerable to delegatecall attacks. The `HackMe` contract delegates the call to the `doSomething()` function in the `Lib` contract, which allows the attacker to modify the state of the `HackMe` contract. For example, the attacker could set the `someNumber` variable to a high value and then drain the `HackMe` contract's balance.\"\n}\n```\n\nTo mitigate this vulnerability, the `HackMe` contract should only delegate calls to trusted contracts. Additionally, the `HackMe` contract could implement additional security checks, such as verifying that the `msg.sender` is authorized to call the `doSomething()` function."
+  }
+},
+{
+  "file_path": "./Contracts/SourceCode/11_delegate_call.sol",
+  "analysis": {
+    "raw_response": "**JSON response:**\n\n```json\n{\n  \"rating\": \"AVOID\",\n  \"reason\": \"This smart contract is vulnerable to delegatecall attacks. The `HackMe` contract delegates calls to the `fallback()` function of the `Lib` contract without any restrictions. This means that an attacker can call any function in the `Lib` contract, including the `pwn()` function, which allows the attacker to take control of the `Lib` contract and steal funds from the `HackMe` contract.\"\n}\n```\n\nTo mitigate this vulnerability, the `HackMe` contract should only delegate calls to trusted contracts and should implement additional security checks to prevent unauthorized calls to the `fallback()` function. For example, the `HackMe` contract could verify that the `msg.sender` is authorized to call the `fallback()` function or that the `msg.data` contains a valid function signature."
+  }
+},
+
+]

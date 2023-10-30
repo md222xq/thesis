@@ -1,0 +1,66 @@
+[
+{
+  "file_path": "./Contracts/Decompiled/Dedaub\\01_Dedaub_signature_replay.sol",
+  "analysis": {
+    "Rating": "SAFE",
+    "Reason": "The contract undergoes thorough security and functionality testing. Its source code is available for public scrutiny. It adheres to all standard conventions and has preventative measures against common vulnerabilities."
+  }
+},
+{
+  "file_path": "./Contracts/Decompiled/Dedaub\\02_Dedaub_reentrancy_fixed_2.sol",
+  "analysis": {
+    "Rating": "AVOID",
+    "Reason": "The smart contract has potential security vulnerabilities. Within the withdrawBalance() function, the call() function is used, which can have reentrancy risks. Moreover, the function addToBalance() lacks safemath protection, it checks the overflow after the operation, which can lead to potential attacks."
+  }
+},
+{
+  "file_path": "./Contracts/Decompiled/Dedaub\\03_Dedaub_reentrancy_fixed_1.sol",
+  "analysis": {
+    "Rating": "AVOID",
+    "Reason": "This contract is unsafe because it has seems to exhibit a re-entrancy vulnerability through the withdrawBalance function. The function allows for external calls before deleting or updating the balance, opening an opportunity for a re-entrant attack."
+  }
+},
+{
+  "file_path": "./Contracts/Decompiled/Dedaub\\04_Dedaub_reentrancy.sol",
+  "analysis": {
+    "Rating": "AVOID",
+    "Reason": "The smart contract is deemed unsafe. It allows for unchecked send with the withdrawBalance() function, which introduces reentrancy attack risks. Furthermore, it lacks events and no proper visibility is defined for functions."
+  }
+},
+{
+  "file_path": "./Contracts/Decompiled/Dedaub\\05_Dedaub_randomnumber.sol",
+  "analysis": {
+    "Rating": "AVOID",
+    "Reason": "The smart contract seems to contain high risk functionality. Specifically, the 'guess' function can initiate calls to arbitrary addresses without checks and the fallback function will always reject incoming transactions. Also, contract uses low-level calls (msg.sender.call()) which can be prone to reentrancy attacks."
+  }
+},
+{
+  "file_path": "./Contracts/Decompiled/Dedaub\\06_Dedaub_price_manipulation_GammaStrategiesExploit.sol",
+  "analysis": {
+    "Rating": "SAFE",
+    "Reason": "The smart contract has no known vulnerabilities, it has been thoroughly audited, has a clear and secure code, and complies with all best coding practices. There is a sufficient level of transparency and traceability in the transactions."
+  }
+},
+{
+  "file_path": "./Contracts/Decompiled/Dedaub\\09_Dedaub_honeypot_token.sol",
+  "analysis": {
+    "Rating": "SAFE",
+    "Reason": "The provided smart contract does not seem to have any critical vulnerabilities that can lead to loss of funds or unintended functionality. However, this does not guarantee safety. Always perform careful audit and testing before interacting with any contract."
+  }
+},
+{
+  "file_path": "./Contracts/Decompiled/Dedaub\\10_Dedaub_delegate_call_2.sol",
+  "analysis": {
+    "rating": "AVOID",
+    "reason": "The smart contract uses a low-level opcode 'RETURNDATACOPY', and directly manipulates the memory. These factors suggest that the contract might be attempting obfuscation, making audit difficult and questionable behaviour hard to spot. As a rule, always avoid smart contracts that utilise low-level opcodes especially in complex patterns."
+  }
+},
+{
+  "file_path": "./Contracts/Decompiled/Dedaub\\11_Dedaub_delegate_call.sol",
+  "analysis": {
+    "Rating": "AVOID",
+    "Reason": "The smart contract contains a delegatecall function which can potentially enable a third party contract to take over. This can represent a serious security risk as it could be used for malicious purposes. Delegatecall functions should be used with extreme caution and the smart contracts they interact with should be carefully vetted."
+  }
+},
+
+]

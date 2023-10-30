@@ -1,0 +1,66 @@
+[
+{
+  "file_path": "./Contracts/SourceCode/01_signature_replay.sol",
+  "analysis": {
+    "Rating": "SAFE",
+    "Reason": "The smart contract code adheres to current best practices. It is well-structured and employs key functionalities such as signatures, transaction initiation, and transfer of funds. The contract performs adequate checks to validate transaction signatures, ensuring that only the stated owners can perform transactions."
+  }
+},
+{
+  "file_path": "./Contracts/SourceCode/02_reentrancy_fixed_2.sol",
+  "analysis": {
+    "Rating": "SAFE",
+    "Reason": "The given smart contract seems to be a simple banking contract with adequate basic checks. However, please note that, while it contains no evident harmful actions, this analysis does not guarantee absolute safety."
+  }
+},
+{
+  "file_path": "./Contracts/SourceCode/03_reentrancy_fixed_1.sol",
+  "analysis": {
+    "Rating": "SAFE",
+    "Reason": "The contract has a proper guard against re-entrancy attack as the state variable is updated before an external call is made, thus preventing recursive calling and subsequent withdrawal of more funds than the user possesses. The use of .call method is safer compared to using .transfer or .send which can cause unexpected behavior."
+  }
+},
+{
+  "file_path": "./Contracts/SourceCode/04_reentrancy.sol",
+  "analysis": {
+    "Rating": "AVOID",
+    "Reason": "This smart contract is vulnerable to recursive calls. A malicious contract can abuse the external call to msg.sender to keep initiating the withdrawBalance function leading to draining of funds"
+  }
+},
+{
+  "file_path": "./Contracts/SourceCode/05_randomnumber.sol",
+  "analysis": {
+    "Rating": "AVOID",
+    "Reason": "The smart contract is using 'blockhash' and 'block.timestamp' for random number generation which can be manipulated by miners. Moreover, the contract is not checking if it has enough Ether to send, which can cause an exception and stop contract execution."
+  }
+},
+{
+  "file_path": "./Contracts/SourceCode/06_price_manipulation_GammaStrategiesExploit.sol",
+  "analysis": {
+    "Rating": "SAFE",
+    "Reason": "The provided smart contract code appears to be safe. It imports libraries and interfaces from reputable sources like OpenZeppelin and Uniswap V3. The contract uses SafeMath for integer operations to prevent overflows and underflows. It uses the 'onlyOwner' modifier to restrict access of sensitive functions to the contract's owner. Lastly, it also uses a Modifier for transferring tokens safely."
+  }
+},
+{
+  "file_path": "./Contracts/SourceCode/08_honeypot_token_2.sol",
+  "analysis": {
+    "rating": "SAFE",
+    "reason": "The smart contract code looks safe. It adopts the standard practices of a typical BEP20 token with functions mint, burn, and swap associated with it. High-level programming practices are used to prevent unexpected malicious behavior."
+  }
+},
+{
+  "file_path": "./Contracts/SourceCode/10_delegate_call_2.sol",
+  "analysis": {
+    "Rating": "AVOID",
+    "Reason": "Smart contract utilizes the delegatecall function which can be exploited by reentrancy attacks. Additionally, the doSomething function allows the modification of 'someNumber' state variable which could lead to alteration of the contract's state."
+  }
+},
+{
+  "file_path": "./Contracts/SourceCode/11_delegate_call.sol",
+  "analysis": {
+    "Rating": "AVOID",
+    "Reason": "The contract is vulnerable to an ownership takeover through delegate calls. A malicious actor could call the 'pwn' function on the 'Lib' contract, effectively taking over ownership."
+  }
+},
+
+]

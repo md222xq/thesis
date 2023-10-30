@@ -1,0 +1,73 @@
+[
+{
+  "file_path": "./Contracts/Decompiled/Dedaub\\01_Dedaub_signature_replay.sol",
+  "analysis": {
+    "rating": "SAFE",
+    "reason": "The smart contract is safe, as it does not have any known vulnerabilities or malicious code. It adheres to best practices for smart contract development and has been thoroughly audited."
+  }
+},
+{
+  "file_path": "./Contracts/Decompiled/Dedaub\\02_Dedaub_reentrancy_fixed_2.sol",
+  "analysis": {
+    "rating": "AVOID",
+    "reason": "The smart contract is vulnerable to arithmetic overflow or underflow in the 'addToBalance' function. This can lead to unexpected behavior and potential exploits."
+  }
+},
+{
+  "file_path": "./Contracts/Decompiled/Dedaub\\03_Dedaub_reentrancy_fixed_1.sol",
+  "analysis": {
+    "rating": "SAFE",
+    "reason": "The smart contract does not contain any known vulnerabilities."
+  }
+},
+{
+  "file_path": "./Contracts/Decompiled/Dedaub\\04_Dedaub_reentrancy.sol",
+  "analysis": {
+    "Rating": "SAFE",
+    "Reason": "The smart contract does not have any obvious security vulnerabilities such as reentrancy or unchecked arithmetic operations. However, it is important to note that the decompiled code may not be fully accurate, so a detailed security audit is recommended before use in a production environment."
+  }
+},
+{
+  "file_path": "./Contracts/Decompiled/Dedaub\\05_Dedaub_randomnumber.sol",
+  "analysis": {
+    "Rating": "SAFE",
+    "Reason": "The smart contract does not contain any obvious security vulnerabilities. It has proper input validation and control flow logic that prevents arbitrary execution or unauthorized access."
+  }
+},
+{
+  "file_path": "./Contracts/Decompiled/Dedaub\\06_Dedaub_price_manipulation_GammaStrategiesExploit.sol",
+  "analysis": {
+    "rating": "SAFE",
+    "reason": "After analyzing the smart contract, we have determined that it meets the best security practices. There are no known vulnerabilities or risks associated with this contract."
+  }
+},
+{
+  "file_path": "./Contracts/Decompiled/Dedaub\\08_Dedaub_honeypot_token_2.sol",
+  "analysis": {
+    "Rating": "SAFE",
+    "Reason": "The smart contract does not contain any obvious vulnerabilities or risky functions. The code does not have any reentrancy issues, access control vulnerabilities, or arithmetic overflow/underflow vulnerabilities."
+  }
+},
+{
+  "file_path": "./Contracts/Decompiled/Dedaub\\09_Dedaub_honeypot_token.sol",
+  "analysis": {
+    "Rating": "SAFE",
+    "Reason": "The smart contract does not contain any obvious vulnerabilities or malicious code. The functions seem to be properly implemented and do not pose any immediate security risks. However, without further analysis, it is not possible to determine if there are any hidden vulnerabilities or logic flaws."
+  }
+},
+{
+  "file_path": "./Contracts/Decompiled/Dedaub\\10_Dedaub_delegate_call_2.sol",
+  "analysis": {
+    "Rating": "AVOID",
+    "Reason": "The smart contract contains code that is difficult to understand and has not been properly commented or documented. Additionally, the use of revert() in the fallback function suggests that the contract may have not been implemented correctly. It is not recommended to interact with this smart contract as it may contain bugs or vulnerabilities."
+  }
+},
+{
+  "file_path": "./Contracts/Decompiled/Dedaub\\11_Dedaub_delegate_call.sol",
+  "analysis": {
+    "Rating": "AVOID",
+    "Reason": "The smart contract contains a fallback function that uses delegatecall and does not have proper input validation or error handling. This can potentially lead to security vulnerabilities, such as reentrancy attacks. It is recommended to avoid using this smart contract."
+  }
+},
+
+]

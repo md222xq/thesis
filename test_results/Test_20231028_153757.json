@@ -1,0 +1,36 @@
+[
+{
+  "file_path": "./Contracts/Decompiled/Dedaub\\01_Dedaub_signature_replay.sol",
+  "analysis": {
+    "Rating": "SAFE",
+    "Reason": "The smart contract appears to be well-written, with a clear and secure logic. No vulnerabilities or potential risks were identified."
+  }
+},
+{
+  "file_path": "./Contracts/Decompiled/Dedaub\\02_Dedaub_reentrancy_fixed_2.sol",
+  "analysis": {
+    "rating": "AVOID",
+    "reason": "The smart contract has an arithmetic overflow or underflow vulnerability in the addToBalance() function, which can potentially lead to loss of funds. Additionally, the fallback function reverts all incoming transactions, which makes it impossible to interact with the contract."
+  }
+},
+{
+  "file_path": "./Contracts/Decompiled/Dedaub\\03_Dedaub_reentrancy_fixed_1.sol",
+  "analysis": {
+    "Rating": "SAFE",
+    "Reason": "The smart contract does not have any known vulnerabilities or security risks. It follows standard practices and does not expose any sensitive functions or data."
+  }
+},
+{
+  "file_path": "./Contracts/Decompiled/Dedaub\\04_Dedaub_reentrancy.sol",
+  "analysis": {
+    "Rating": "AVOID",
+    "Reason": "Arithmetic overflow or underflow vulnerability in addToBalance function"
+  }
+},
+{
+  "file_path": "./Contracts/Decompiled/Dedaub\\05_Dedaub_randomnumber.sol",
+  "analysis": {
+    "rating": "AVOID",
+    "reason": "The smart contract contains code that reverts all incoming transactions, making it useless and potentially exploitable."
+  }
+},

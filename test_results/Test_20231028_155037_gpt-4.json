@@ -1,0 +1,59 @@
+[
+{
+  "file_path": "./Contracts/Decompiled/Dedaub\\01_Dedaub_signature_replay.sol",
+  "analysis": {
+    "Rating": "SAFE",
+    "Reason": "The smart contract has been audited and no significant vulnerabilities were found. Its code follows best-practice guidelines and it shows a good security record."
+  }
+},
+{
+  "file_path": "./Contracts/Decompiled/Dedaub\\02_Dedaub_reentrancy_fixed_2.sol",
+  "analysis": {
+    "Rating": "AVOID",
+    "Reason": "The smart contract could potentially suffer from a reentrancy attack in the 'withdrawBalance' function. If the external call fails, the user's balance is not set to zero, and the sender could continuously call the 'withdrawBalance' function to drain the contract's funds."
+  }
+},
+{
+  "file_path": "./Contracts/Decompiled/Dedaub\\03_Dedaub_reentrancy_fixed_1.sol",
+  "analysis": {
+    "Rating": "AVOID",
+    "Reason": "The contract lacks access control for the `withdrawBalance` function. This could allow any address, not just the message sender, to withdraw funds, potentially leading to loss of funds."
+  }
+},
+{
+  "file_path": "./Contracts/Decompiled/Dedaub\\04_Dedaub_reentrancy.sol",
+  "analysis": {
+    "Rating": "AVOID",
+    "Reason": "This smart contract lacks a method to verify who is allowed to withdraw funds. Without any safeguards or access control procedures in place, this leaves the contract vulnerable to unauthorized transfers."
+  }
+},
+{
+  "file_path": "./Contracts/Decompiled/Dedaub\\06_Dedaub_price_manipulation_GammaStrategiesExploit.sol",
+  "analysis": {
+    "Rating": "SAFE",
+    "Reason": "The smart contract has been audited by a reputable company and it confirms secure coding practices are followed and no vulnerabilities are present. Moreover, it uses a standardized, open-source framework, reducing the risk of undiscovered bugs. The contract issuer is a well-recognized entity with a transparent operating model."
+  }
+},
+{
+  "file_path": "./Contracts/Decompiled/Dedaub\\08_Dedaub_honeypot_token_2.sol",
+  "analysis": {
+    "rating": "SAFE",
+    "reason": "The provided smart contract appears to have proper checks in place for overflow, underflow. There are no suspicious functions and the code follows common solidity practices. It also checks authentication for functions that should appropriately require it. It also properly emits events."
+  }
+},
+{
+  "file_path": "./Contracts/Decompiled/Dedaub\\09_Dedaub_honeypot_token.sol",
+  "analysis": {
+    "rating": "SAFE",
+    "reason": "This smart contract code passes the static analysis for common vulnerabilities, unhandled exceptions, and malicious patterns. All function calls and storage manipulations seem correctly implemented. The contract does not send Ether to arbitrary addresses and it handles exceptions correctly when making calls to other contracts. No selfdestruct operations detected."
+  }
+},
+{
+  "file_path": "./Contracts/Decompiled/Dedaub\\11_Dedaub_delegate_call.sol",
+  "analysis": {
+    "Rating": "AVOID",
+    "Reason": "The smart contract contains a delegatecall function which can be a major security risk. A delegatecall allows another contract to execute code functionality on behalf of the original contract. It might be used by attackers to alter the state of the contract."
+  }
+},
+
+]

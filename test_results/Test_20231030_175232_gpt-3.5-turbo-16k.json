@@ -1,0 +1,69 @@
+[
+{
+  "file_path": "./Contracts/SourceCode/01_signature_replay.sol",
+  "analysis": {
+    "Rating": "AVOID"
+  }
+},
+{
+  "file_path": "./Contracts/SourceCode/02_reentrancy_fixed_2.sol",
+  "analysis": {
+    "raw_response": "Rating: SAFE"
+  }
+},
+{
+  "file_path": "./Contracts/SourceCode/03_reentrancy_fixed_1.sol",
+  "analysis": {
+    "rating": "AVOID"
+  }
+},
+{
+  "file_path": "./Contracts/SourceCode/04_reentrancy.sol",
+  "analysis": {
+    "Rating": "AVOID"
+  }
+},
+{
+  "file_path": "./Contracts/SourceCode/05_randomnumber.sol",
+  "analysis": {
+    "Rating": "AVOID"
+  }
+},
+{
+  "file_path": "./Contracts/SourceCode/06_price_manipulation_GammaStrategiesExploit.sol",
+  "analysis": {
+    "Rating": "SAFE"
+  }
+},
+{
+  "file_path": "./Contracts/SourceCode/07_math_error_farmingContract.sol",
+  "analysis": {
+    "Rating": "SAFE"
+  }
+},
+{
+  "file_path": "./Contracts/SourceCode/08_honeypot_token_2.sol",
+  "analysis": {
+    "Rating": "SAFE"
+  }
+},
+{
+  "file_path": "./Contracts/SourceCode/09_honeypot_token.sol",
+  "analysis": {
+    "Rating": "SAFE"
+  }
+},
+{
+  "file_path": "./Contracts/SourceCode/10_delegate_call_2.sol",
+  "analysis": {
+    "Rating": "AVOID"
+  }
+},
+{
+  "file_path": "./Contracts/SourceCode/11_delegate_call.sol",
+  "analysis": {
+    "Rating": "AVOID"
+  }
+},
+
+]

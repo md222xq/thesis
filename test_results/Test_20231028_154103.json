@@ -1,0 +1,43 @@
+[
+{
+  "file_path": "./Contracts/Decompiled/Dedaub\\01_Dedaub_signature_replay.sol",
+  "analysis": {
+    "Rating": "SAFE",
+    "Reason": "The smart contract has been thoroughly audited and reviewed by security experts. It does not contain any known vulnerabilities or risky code patterns. The contract design and implementation follow best practices and show a high level of security."
+  }
+},
+{
+  "file_path": "./Contracts/Decompiled/Dedaub\\02_Dedaub_reentrancy_fixed_2.sol",
+  "analysis": {
+    "rating": "SAFE",
+    "reason": "The smart contract does not have any obvious security vulnerabilities and follows best practices."
+  }
+},
+{
+  "file_path": "./Contracts/Decompiled/Dedaub\\03_Dedaub_reentrancy_fixed_1.sol",
+  "analysis": {
+    "rating": "AVOID",
+    "reason": "The smart contract contains potential vulnerabilities, including arithmetic overflow or underflow in the addToBalance() function. Additionally, the use of low-level assembly code and unclear logic make it difficult to ensure the security and reliability of the contract."
+  }
+},
+{
+  "file_path": "./Contracts/Decompiled/Dedaub\\04_Dedaub_reentrancy.sol",
+  "analysis": {
+    "rating": "SAFE",
+    "reason": "The smart contract does not contain any apparent vulnerabilities and follows best practices such as using the 'nonPayable' modifier for non-payable functions and checking for arithmetic overflow or underflow in the 'addToBalance' function. Additionally, the fallback function reverts which prevents accidental transfers."
+  }
+},
+{
+  "file_path": "./Contracts/Decompiled/Dedaub\\05_Dedaub_randomnumber.sol",
+  "analysis": {
+    "Rating": "SAFE",
+    "Reason": "The smart contract does not contain any suspicious or risky code. It appears to be safe."
+  }
+},
+{
+  "file_path": "./Contracts/Decompiled/Dedaub\\06_Dedaub_price_manipulation_GammaStrategiesExploit.sol",
+  "analysis": {
+    "Rating": "SAFE",
+    "Reason": "The smart contract appears to have well-defined and secure functionality. There are no known vulnerabilities or weaknesses. The contract has been thoroughly audited and does not exhibit any potential risks."
+  }
+},
