@@ -8,7 +8,7 @@ from pathlib import Path
 
 openai.api_key = os.getenv("OPENAI_API_KEY")
 # folder_path = './Contracts/Decompiled/Dedaub'
-folder_path = './Contracts/SourceCode/'
+folder_path = './Contracts/Decompiled/Heimdall-rs/'
 gpt_model = "gpt-3.5-turbo-16k"
 # gpt_model = "gpt-4"
 
