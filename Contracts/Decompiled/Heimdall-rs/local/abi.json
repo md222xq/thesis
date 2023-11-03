@@ -1,0 +1,527 @@
+[{
+  "type": "function",
+  "name": "Unresolved_55eff2f6",
+  "inputs": [
+    {
+      "name": "arg0",
+      "internalType": "address",
+      "type": "address"
+    },
+    {
+      "name": "arg1",
+      "internalType": "bool",
+      "type": "bool"
+    }
+  ],
+  "outputs": [],
+  "stateMutability": "nonpayable",
+  "constant": false
+},
+{
+  "type": "function",
+  "name": "Unresolved_18160ddd",
+  "inputs": [],
+  "outputs": [
+    {
+      "name": "ret0",
+      "internalType": "uint256",
+      "type": "uint256"
+    }
+  ],
+  "stateMutability": "view",
+  "constant": false
+},
+{
+  "type": "function",
+  "name": "Unresolved_858ced35",
+  "inputs": [
+    {
+      "name": "arg0",
+      "internalType": "address",
+      "type": "address"
+    }
+  ],
+  "outputs": [
+    {
+      "name": "ret0",
+      "internalType": "bool",
+      "type": "bool"
+    }
+  ],
+  "stateMutability": "nonpayable",
+  "constant": false
+},
+{
+  "type": "function",
+  "name": "Unresolved_e2daf665",
+  "inputs": [],
+  "outputs": [
+    {
+      "name": "ret0",
+      "internalType": "address",
+      "type": "address"
+    }
+  ],
+  "stateMutability": "view",
+  "constant": false
+},
+{
+  "type": "function",
+  "name": "Unresolved_f2fde38b",
+  "inputs": [
+    {
+      "name": "arg0",
+      "internalType": "address",
+      "type": "address"
+    }
+  ],
+  "outputs": [],
+  "stateMutability": "nonpayable",
+  "constant": false
+},
+{
+  "type": "event",
+  "name": "Event_8be0079c",
+  "inputs": []
+},
+{
+  "type": "function",
+  "name": "Unresolved_313ce567",
+  "inputs": [],
+  "outputs": [
+    {
+      "name": "ret0",
+      "internalType": "bool",
+      "type": "bool"
+    }
+  ],
+  "stateMutability": "view",
+  "constant": false
+},
+{
+  "type": "function",
+  "name": "Unresolved_8da5cb5b",
+  "inputs": [],
+  "outputs": [
+    {
+      "name": "ret0",
+      "internalType": "address",
+      "type": "address"
+    }
+  ],
+  "stateMutability": "view",
+  "constant": false
+},
+{
+  "type": "function",
+  "name": "Unresolved_5c658165",
+  "inputs": [
+    {
+      "name": "arg0",
+      "internalType": "address",
+      "type": "address"
+    },
+    {
+      "name": "arg1",
+      "internalType": "address",
+      "type": "address"
+    }
+  ],
+  "outputs": [
+    {
+      "name": "ret0",
+      "internalType": "uint256",
+      "type": "uint256"
+    }
+  ],
+  "stateMutability": "view",
+  "constant": false
+},
+{
+  "type": "function",
+  "name": "Unresolved_40c10f19",
+  "inputs": [
+    {
+      "name": "arg0",
+      "internalType": "bytes",
+      "type": "bytes"
+    },
+    {
+      "name": "arg1",
+      "internalType": "address",
+      "type": "address"
+    }
+  ],
+  "outputs": [],
+  "stateMutability": "nonpayable",
+  "constant": false
+},
+{
+  "type": "function",
+  "name": "Unresolved_a9059cbb",
+  "inputs": [
+    {
+      "name": "arg0",
+      "internalType": "address",
+      "type": "address"
+    },
+    {
+      "name": "arg1",
+      "internalType": "bytes",
+      "type": "bytes"
+    }
+  ],
+  "outputs": [
+    {
+      "name": "ret0",
+      "internalType": "bool",
+      "type": "bool"
+    }
+  ],
+  "stateMutability": "nonpayable",
+  "constant": false
+},
+{
+  "type": "event",
+  "name": "Event_ddf252ad",
+  "inputs": []
+},
+{
+  "type": "function",
+  "name": "Unresolved_dd62ed3e",
+  "inputs": [
+    {
+      "name": "arg0",
+      "internalType": "address",
+      "type": "address"
+    },
+    {
+      "name": "arg1",
+      "internalType": "address",
+      "type": "address"
+    }
+  ],
+  "outputs": [
+    {
+      "name": "ret0",
+      "internalType": "uint256",
+      "type": "uint256"
+    }
+  ],
+  "stateMutability": "view",
+  "constant": false
+},
+{
+  "type": "function",
+  "name": "Unresolved_27e235e3",
+  "inputs": [
+    {
+      "name": "arg0",
+      "internalType": "address",
+      "type": "address"
+    }
+  ],
+  "outputs": [
+    {
+      "name": "ret0",
+      "internalType": "uint256",
+      "type": "uint256"
+    }
+  ],
+  "stateMutability": "view",
+  "constant": false
+},
+{
+  "type": "function",
+  "name": "Unresolved_d21c8d55",
+  "inputs": [],
+  "outputs": [
+    {
+      "name": "ret0",
+      "internalType": "address",
+      "type": "address"
+    }
+  ],
+  "stateMutability": "view",
+  "constant": false
+},
+{
+  "type": "function",
+  "name": "Unresolved_ff9913e8",
+  "inputs": [
+    {
+      "name": "arg0",
+      "internalType": "address",
+      "type": "address"
+    }
+  ],
+  "outputs": [
+    {
+      "name": "ret0",
+      "internalType": "bool",
+      "type": "bool"
+    }
+  ],
+  "stateMutability": "view",
+  "constant": false
+},
+{
+  "type": "function",
+  "name": "Unresolved_11de19e7",
+  "inputs": [],
+  "outputs": [
+    {
+      "name": "ret0",
+      "internalType": "address",
+      "type": "address"
+    }
+  ],
+  "stateMutability": "view",
+  "constant": false
+},
+{
+  "type": "function",
+  "name": "Unresolved_4a0af68d",
+  "inputs": [
+    {
+      "name": "arg0",
+      "internalType": "address",
+      "type": "address"
+    }
+  ],
+  "outputs": [
+    {
+      "name": "ret0",
+      "internalType": "bool",
+      "type": "bool"
+    }
+  ],
+  "stateMutability": "nonpayable",
+  "constant": false
+},
+{
+  "type": "function",
+  "name": "Unresolved_95d89b41",
+  "inputs": [],
+  "outputs": [
+    {
+      "name": "ret0",
+      "internalType": "bytes memory",
+      "type": "bytes memory"
+    }
+  ],
+  "stateMutability": "view",
+  "constant": false
+},
+{
+  "type": "function",
+  "name": "Unresolved_ade2de02",
+  "inputs": [
+    {
+      "name": "arg0",
+      "internalType": "address",
+      "type": "address"
+    }
+  ],
+  "outputs": [
+    {
+      "name": "ret0",
+      "internalType": "bool",
+      "type": "bool"
+    }
+  ],
+  "stateMutability": "nonpayable",
+  "constant": false
+},
+{
+  "type": "function",
+  "name": "Unresolved_e9543fa2",
+  "inputs": [
+    {
+      "name": "arg0",
+      "internalType": "address",
+      "type": "address"
+    }
+  ],
+  "outputs": [
+    {
+      "name": "ret0",
+      "internalType": "address",
+      "type": "address"
+    }
+  ],
+  "stateMutability": "pure",
+  "constant": false
+},
+{
+  "type": "function",
+  "name": "Unresolved_891e1ee0",
+  "inputs": [],
+  "outputs": [
+    {
+      "name": "ret0",
+      "internalType": "address",
+      "type": "address"
+    }
+  ],
+  "stateMutability": "view",
+  "constant": false
+},
+{
+  "type": "function",
+  "name": "Unresolved_23b872dd",
+  "inputs": [
+    {
+      "name": "arg0",
+      "internalType": "address",
+      "type": "address"
+    },
+    {
+      "name": "arg1",
+      "internalType": "bytes",
+      "type": "bytes"
+    },
+    {
+      "name": "arg2",
+      "internalType": "address",
+      "type": "address"
+    }
+  ],
+  "outputs": [
+    {
+      "name": "ret0",
+      "internalType": "bool",
+      "type": "bool"
+    }
+  ],
+  "stateMutability": "nonpayable",
+  "constant": false
+},
+{
+  "type": "function",
+  "name": "Unresolved_791f83eb",
+  "inputs": [
+    {
+      "name": "arg0",
+      "internalType": "address",
+      "type": "address"
+    },
+    {
+      "name": "arg1",
+      "internalType": "bool",
+      "type": "bool"
+    }
+  ],
+  "outputs": [],
+  "stateMutability": "nonpayable",
+  "constant": false
+},
+{
+  "type": "function",
+  "name": "Unresolved_095ea7b3",
+  "inputs": [
+    {
+      "name": "arg0",
+      "internalType": "address",
+      "type": "address"
+    },
+    {
+      "name": "arg1",
+      "internalType": "bytes",
+      "type": "bytes"
+    }
+  ],
+  "outputs": [
+    {
+      "name": "ret0",
+      "internalType": "bool",
+      "type": "bool"
+    }
+  ],
+  "stateMutability": "nonpayable",
+  "constant": false
+},
+{
+  "type": "event",
+  "name": "Event_8c5be1e5",
+  "inputs": []
+},
+{
+  "type": "function",
+  "name": "Unresolved_06fdde03",
+  "inputs": [],
+  "outputs": [
+    {
+      "name": "ret0",
+      "internalType": "bytes memory",
+      "type": "bytes memory"
+    }
+  ],
+  "stateMutability": "view",
+  "constant": false
+},
+{
+  "type": "function",
+  "name": "Unresolved_3177029f",
+  "inputs": [
+    {
+      "name": "arg0",
+      "internalType": "bytes",
+      "type": "bytes"
+    },
+    {
+      "name": "arg1",
+      "internalType": "address",
+      "type": "address"
+    }
+  ],
+  "outputs": [
+    {
+      "name": "ret0",
+      "internalType": "bool",
+      "type": "bool"
+    }
+  ],
+  "stateMutability": "nonpayable",
+  "constant": false
+},
+{
+  "type": "function",
+  "name": "Unresolved_376d567c",
+  "inputs": [
+    {
+      "name": "arg0",
+      "internalType": "address",
+      "type": "address"
+    }
+  ],
+  "outputs": [
+    {
+      "name": "ret0",
+      "internalType": "bool",
+      "type": "bool"
+    }
+  ],
+  "stateMutability": "nonpayable",
+  "constant": false
+},
+{
+  "type": "function",
+  "name": "Unresolved_70a08231",
+  "inputs": [
+    {
+      "name": "arg0",
+      "internalType": "address",
+      "type": "address"
+    }
+  ],
+  "outputs": [
+    {
+      "name": "ret0",
+      "internalType": "uint256",
+      "type": "uint256"
+    }
+  ],
+  "stateMutability": "view",
+  "constant": false
+}]
