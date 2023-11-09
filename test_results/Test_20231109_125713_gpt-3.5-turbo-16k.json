@@ -1,0 +1,57 @@
+[
+{
+  "file_path": "./Contracts/Decompiled/Heimdall-rs/11_delegate_call.sol",
+  "analysis": {
+    "Rating": "SAFE"
+  }
+},
+{
+  "file_path": "./Contracts/Decompiled/Heimdall-rs/02_reentrancy_fixed_2.sol",
+  "analysis": {
+    "Rating": "SAFE"
+  }
+},
+{
+  "file_path": "./Contracts/Decompiled/Heimdall-rs/03_reentrancy_fixed_1.sol",
+  "analysis": {
+    "Rating": "SAFE"
+  }
+},
+{
+  "file_path": "./Contracts/Decompiled/Heimdall-rs/10_delegate_call_2.sol",
+  "analysis": {
+    "Rating": "AVOID"
+  }
+},
+{
+  "file_path": "./Contracts/Decompiled/Heimdall-rs/09_Heimdall_honeypot.sol",
+  "analysis": {
+    "Rating": "SAFE"
+  }
+},
+{
+  "file_path": "./Contracts/Decompiled/Heimdall-rs/01_signature_replay.sol",
+  "analysis": {
+    "rating": "SAFE"
+  }
+},
+{
+  "file_path": "./Contracts/Decompiled/Heimdall-rs/05_Heimdall_randomnumber.sol",
+  "analysis": {
+    "Rating": "SAFE"
+  }
+},
+{
+  "file_path": "./Contracts/Decompiled/Heimdall-rs/09_01.sol",
+  "analysis": {
+    "rating": "SAFE"
+  }
+},
+{
+  "file_path": "./Contracts/Decompiled/Heimdall-rs/04_reentrancy.sol",
+  "analysis": {
+    "Rating": "AVOID"
+  }
+},
+
+]

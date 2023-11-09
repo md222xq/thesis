@@ -1,0 +1,29 @@
+[
+{
+  "test": 1,
+  "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_unchecked_low_level_calls_0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152.sol_airPort.json.hex.sol",
+  "analysis": {
+    "Rating": "Vulnerable"
+  }
+},
+{
+  "test": 2,
+  "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_unchecked_low_level_calls_0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol_Owned.json.hex.sol",
+  "analysis": {
+    "Rating": "SAFE"
+  }
+},
+{
+  "test": 3,
+  "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_unchecked_low_level_calls_0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol_tokenRecipient.json.hex.sol",
+  "analysis": {
+    "Rating": "SAFE"
+  }
+},
+{
+  "test": 4,
+  "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_time_manipulation_ether_lotto.sol_EtherLotto.json.hex.sol",
+  "analysis": {
+    "Rating": "SAFE"
+  }
+},
