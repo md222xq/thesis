@@ -7,7 +7,7 @@ from datetime import datetime
 from pathlib import Path
 import time
 
-openai.api_key = "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"
+openai.api_key = os.getenv("OPENAI_API_KEY")
 # folder_path = './Contracts/Decompiled/Dedaub'
 folder_path = './Contracts/Decompiled/Heimdall-rs/SmartBugs'
 gpt_model = "gpt-3.5-turbo-16k"
