@@ -8,7 +8,7 @@ import time
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
 # folder_path = './Contracts/Decompiled/Heimdall-rs/SmartBugs'
-folder_path = './Contracts/Decompiled/Heimdall-rs/'
+folder_path = './Contracts/Decompiled/test/'
 gpt_model = "gpt-3.5-turbo-16k"
 test_type = 'heimdall'
 
@@ -18,6 +18,8 @@ def analyze_solidity_file(file_path, gpt_model, test_run):
     try:
         with open(file_path, 'r', encoding='utf-8') as f:
             solidity_code = f.read()
+            print(solidity_code)
+            print(os.listdir())
 
         message = [
             {
@@ -41,7 +43,7 @@ def analyze_solidity_file(file_path, gpt_model, test_run):
         )
 
         output = response.choices[0].text.strip() if response.choices else ""
-
+        print(output)
         try:
             analysis = json.loads(output)
         except json.JSONDecodeError:

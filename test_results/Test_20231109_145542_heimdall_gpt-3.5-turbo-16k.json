@@ -1,0 +1,18 @@
+[
+  {
+    "test": 1,
+    "file_path": "./Contracts/Decompiled/test/01_signature_replay.sol",
+    "analysis": {
+      "error": "Failed to analyze: text"
+    },
+    "time_taken": "21.7001s"
+  },
+  {
+    "test": 2,
+    "file_path": "./Contracts/Decompiled/test/02_reentrancy_fixed_2.sol",
+    "analysis": {
+      "error": "Failed to analyze: text"
+    },
+    "time_taken": "8.0432s"
+  }
+]

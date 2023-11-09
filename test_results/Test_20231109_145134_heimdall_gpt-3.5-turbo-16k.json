@@ -1,0 +1,74 @@
+[
+  {
+    "test": 1,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/01_signature_replay.sol",
+    "analysis": {
+      "error": "Failed to analyze: text"
+    },
+    "time_taken": "12.7494s"
+  },
+  {
+    "test": 2,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/02_reentrancy_fixed_2.sol",
+    "analysis": {
+      "error": "Failed to analyze: text"
+    },
+    "time_taken": "8.4631s"
+  },
+  {
+    "test": 3,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/03_reentrancy_fixed_1.sol",
+    "analysis": {
+      "error": "Failed to analyze: text"
+    },
+    "time_taken": "5.2077s"
+  },
+  {
+    "test": 4,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/04_reentrancy.sol",
+    "analysis": {
+      "error": "Failed to analyze: text"
+    },
+    "time_taken": "9.6304s"
+  },
+  {
+    "test": 5,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/05_Heimdall_randomnumber.sol",
+    "analysis": {
+      "error": "Failed to analyze: text"
+    },
+    "time_taken": "5.1706s"
+  },
+  {
+    "test": 6,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/09_01.sol",
+    "analysis": {
+      "error": "Failed to analyze: text"
+    },
+    "time_taken": "22.0334s"
+  },
+  {
+    "test": 7,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/09_Heimdall_honeypot.sol",
+    "analysis": {
+      "error": "Failed to analyze: text"
+    },
+    "time_taken": "19.3540s"
+  },
+  {
+    "test": 8,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/10_delegate_call_2.sol",
+    "analysis": {
+      "error": "Failed to analyze: The server is overloaded or not ready yet."
+    },
+    "time_taken": "0.5093s"
+  },
+  {
+    "test": 9,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/11_delegate_call.sol",
+    "analysis": {
+      "error": "Failed to analyze: The server is overloaded or not ready yet."
+    },
+    "time_taken": "0.5467s"
+  }
+]
