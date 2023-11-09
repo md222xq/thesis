@@ -1,0 +1,10 @@
+[
+{
+  "file_path": "./Contracts/Decompiled/Heimdall-rs/05_Heimdall_randomnumber.sol",
+  "analysis": {
+    "rating": "AVOID",
+    "reason": "The smart contract is obfuscated and contains suspicious and complex logic. It is difficult to fully understand the intention of the contract, making it potentially risky to use."
+  }
+},
+
+]

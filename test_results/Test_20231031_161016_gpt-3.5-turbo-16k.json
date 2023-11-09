@@ -1,0 +1,9 @@
+[
+{
+  "file_path": "./Contracts/Decompiled/Heimdall-rs/05_Heimdall_randomnumber.sol",
+  "analysis": {
+    "raw_response": "{\n  \"rating\": \"AVOID\",\n  \"reason\": \"This smart contract contains unsafe and potentially malicious code. It uses custom metadata, which suggests that it might have been modified or manipulated. The code includes obfuscated and unnecessary operations, such as the var_f manipulation, comparing block numbers in an unconventional way, and the calculation with keccak256 and shifting operators. Additionally, it contains a requirement to send Ether with a fixed value, which can be misleading and potentially harmful. Overall, this"
+  }
+},
+
+]

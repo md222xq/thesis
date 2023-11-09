@@ -1,0 +1,216 @@
+[
+{
+  "test": 1,
+  "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs\\Heimdall_access_control_incorrect_constructor_name2.sol_Missing.json.hex.sol",
+  "analysis": "FAILED to analyze, {e}"
+},
+{
+  "test": 2,
+  "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs\\Heimdall_access_control_incorrect_constructor_name3.sol_Missing.json.hex.sol",
+  "analysis": "FAILED to analyze, {e}"
+},
+{
+  "test": 3,
+  "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs\\Heimdall_access_control_mapping_write.sol_Map.json.hex.sol",
+  "analysis": "FAILED to analyze, {e}"
+},
+{
+  "test": 4,
+  "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs\\Heimdall_access_control_multiowned_vulnerable.sol_MultiOwnable.json.hex.sol",
+  "analysis": "FAILED to analyze, {e}"
+},
+{
+  "test": 5,
+  "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs\\Heimdall_access_control_multiowned_vulnerable.sol_TestContract.json.hex.sol",
+  "analysis": "FAILED to analyze, {e}"
+},
+{
+  "test": 6,
+  "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs\\Heimdall_access_control_mycontract.sol_MyContract.json.hex.sol",
+  "analysis": "FAILED to analyze, {e}"
+},
+{
+  "test": 7,
+  "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs\\Heimdall_access_control_parity_wallet_bug_2.sol_WalletEvents.json.hex.sol",
+  "analysis": "FAILED to analyze, {e}"
+},
+{
+  "test": 8,
+  "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs\\Heimdall_access_control_parity_wallet_bug_2.sol_WalletLibrary.json.hex.sol",
+  "analysis": "FAILED to analyze, {e}"
+},
+{
+  "test": 9,
+  "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs\\Heimdall_access_control_phishable.sol_Phishable.json.hex.sol",
+  "analysis": "FAILED to analyze, {e}"
+},
+{
+  "test": 10,
+  "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs\\Heimdall_access_control_proxy.sol_Proxy.json.hex.sol",
+  "analysis": "FAILED to analyze, {e}"
+},
+{
+  "test": 11,
+  "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs\\Heimdall_access_control_rubixi.sol_Rubixi.json.hex.sol",
+  "analysis": "FAILED to analyze, {e}"
+},
+{
+  "test": 12,
+  "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs\\Heimdall_access_control_simple_suicide.sol_SimpleSuicide.json.hex.sol",
+  "analysis": "FAILED to analyze, {e}"
+},
+{
+  "test": 13,
+  "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs\\Heimdall_access_control_unprotected0.sol_Unprotected.json.hex.sol",
+  "analysis": "FAILED to analyze, {e}"
+},
+{
+  "test": 14,
+  "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs\\Heimdall_access_control_wallet_02_refund_nosub.sol_Wallet.json.hex.sol",
+  "analysis": "FAILED to analyze, {e}"
+},
+{
+  "test": 15,
+  "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs\\Heimdall_access_control_wallet_03_wrong_constructor.sol_Wallet.json.hex.sol",
+  "analysis": "FAILED to analyze, {e}"
+},
+{
+  "test": 16,
+  "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs\\Heimdall_access_control_wallet_04_confused_sign.sol_Wallet.json.hex.sol",
+  "analysis": "FAILED to analyze, {e}"
+},
+{
+  "test": 17,
+  "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs\\Heimdall_arithmetic_BECToken.sol_BasicToken.json.hex.sol",
+  "analysis": "FAILED to analyze, {e}"
+},
+{
+  "test": 18,
+  "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs\\Heimdall_arithmetic_BECToken.sol_BecToken.json.hex.sol",
+  "analysis": "FAILED to analyze, {e}"
+},
+{
+  "test": 19,
+  "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs\\Heimdall_arithmetic_BECToken.sol_ERC20.json.hex.sol",
+  "analysis": "FAILED to analyze, {e}"
+},
+{
+  "test": 20,
+  "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs\\Heimdall_arithmetic_BECToken.sol_ERC20Basic.json.hex.sol",
+  "analysis": "FAILED to analyze, {e}"
+},
+{
+  "test": 21,
+  "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs\\Heimdall_arithmetic_BECToken.sol_Ownable.json.hex.sol",
+  "analysis": "FAILED to analyze, {e}"
+},
+{
+  "test": 22,
+  "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs\\Heimdall_arithmetic_BECToken.sol_Pausable.json.hex.sol",
+  "analysis": "FAILED to analyze, {e}"
+},
+{
+  "test": 23,
+  "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs\\Heimdall_arithmetic_BECToken.sol_PausableToken.json.hex.sol",
+  "analysis": "FAILED to analyze, {e}"
+},
+{
+  "test": 24,
+  "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs\\Heimdall_arithmetic_BECToken.sol_SafeMath.json.hex.sol",
+  "analysis": "FAILED to analyze, {e}"
+},
+{
+  "test": 25,
+  "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs\\Heimdall_arithmetic_BECToken.sol_StandardToken.json.hex.sol",
+  "analysis": "FAILED to analyze, {e}"
+},
+{
+  "test": 26,
+  "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs\\Heimdall_arithmetic_insecure_transfer.sol_IntegerOverflowAdd.json.hex.sol",
+  "analysis": "FAILED to analyze, {e}"
+},
+{
+  "test": 27,
+  "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs\\Heimdall_arithmetic_integer_overflow_1.sol_Overflow.json.hex.sol",
+  "analysis": "FAILED to analyze, {e}"
+},
+{
+  "test": 28,
+  "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs\\Heimdall_arithmetic_integer_overflow_add.sol_IntegerOverflowAdd.json.hex.sol",
+  "analysis": "FAILED to analyze, {e}"
+},
+{
+  "test": 29,
+  "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs\\Heimdall_arithmetic_integer_overflow_benign_1.sol_IntegerOverflowBenign1.json.hex.sol",
+  "analysis": "FAILED to analyze, {e}"
+},
+{
+  "test": 30,
+  "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs\\Heimdall_arithmetic_integer_overflow_mapping_sym_1.sol_IntegerOverflowMappingSym1.json.hex.sol",
+  "analysis": "FAILED to analyze, {e}"
+},
+{
+  "test": 31,
+  "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs\\Heimdall_arithmetic_integer_overflow_minimal.sol_IntegerOverflowMinimal.json.hex.sol",
+  "analysis": "FAILED to analyze, {e}"
+},
+{
+  "test": 32,
+  "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs\\Heimdall_arithmetic_integer_overflow_mul.sol_IntegerOverflowMul.json.hex.sol",
+  "analysis": "FAILED to analyze, {e}"
+},
+{
+  "test": 33,
+  "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs\\Heimdall_arithmetic_integer_overflow_multitx_multifunc_feasible.sol_IntegerOverflowMultiTxMultiFuncFeasible.json.hex.sol",
+  "analysis": "FAILED to analyze, {e}"
+},
+{
+  "test": 34,
+  "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs\\Heimdall_arithmetic_integer_overflow_multitx_onefunc_feasible.sol_IntegerOverflowMultiTxOneFuncFeasible.json.hex.sol",
+  "analysis": "FAILED to analyze, {e}"
+},
+{
+  "test": 35,
+  "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs\\Heimdall_arithmetic_overflow_simple_add.sol_Overflow_Add.json.hex.sol",
+  "analysis": "FAILED to analyze, {e}"
+},
+{
+  "test": 36,
+  "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs\\Heimdall_arithmetic_overflow_single_tx.sol_IntegerOverflowSingleTransaction.json.hex.sol",
+  "analysis": "FAILED to analyze, {e}"
+},
+{
+  "test": 37,
+  "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs\\Heimdall_arithmetic_timelock.sol_TimeLock.json.hex.sol",
+  "analysis": "FAILED to analyze, {e}"
+},
+{
+  "test": 38,
+  "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs\\Heimdall_arithmetic_token.sol_Token.json.hex.sol",
+  "analysis": "FAILED to analyze, {e}"
+},
+{
+  "test": 39,
+  "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs\\Heimdall_arithmetic_tokensalechallenge.sol_TokenSaleChallenge.json.hex.sol",
+  "analysis": "FAILED to analyze, {e}"
+},
+{
+  "test": 40,
+  "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs\\Heimdall_bad_randomness_blackjack.sol_BlackJack.json.hex.sol",
+  "analysis": "FAILED to analyze, {e}"
+},
+{
+  "test": 41,
+  "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs\\Heimdall_bad_randomness_blackjack.sol_Deck.json.hex.sol",
+  "analysis": "FAILED to analyze, {e}"
+},
+{
+  "test": 42,
+  "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs\\Heimdall_bad_randomness_etheraffle.sol_Ethraffle_v4b.json.hex.sol",
+  "analysis": "FAILED to analyze, {e}"
+},
+{
+  "test": 43,
+  "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs\\Heimdall_bad_randomness_guess_the_random_number.sol_GuessTheRandomNumberChallenge.json.hex.sol",
+  "analysis": "FAILED to analyze, {e}"
+},

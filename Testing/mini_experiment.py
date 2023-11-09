@@ -35,7 +35,6 @@ def analyze_solidity_file(file_path, output_file, gpt_model, test_run):
             "content": solidity_code
         }
     ]
-    print(json.dumps(message))
     
     try:
 
@@ -68,7 +67,8 @@ def analyze_solidity_file(file_path, output_file, gpt_model, test_run):
         output_data = {
                 "test": test_run,
                 "file_path": file_path,
-                "analysis": analysis
+                "analysis": analysis,
+                "time_taken": time_taken
             }
         json.dump(output_data, output_file, indent=2)
         output_file.write(',\n')
@@ -94,6 +94,8 @@ output_dir.mkdir(exist_ok=True)  # Create the output directory if it doesn't exi
 current_time = datetime.now().strftime("%Y%m%d_%H%M%S")
 output_filename = output_dir / f'Test_{current_time}_{test_type}_{gpt_model}.json'  # Save the file in the output directory
 
+tic = time.perf_counter()
+
 with open(output_filename, 'w', encoding='utf-8') as output_file:
     output_file.write('[\n') 
     # for root, dirs, files in os.walk(folder_path):
@@ -102,8 +104,10 @@ with open(output_filename, 'w', encoding='utf-8') as output_file:
         if file.endswith(".sol"):
             file_path = os.path.join(folder_path, file)
             print(file_path)
+            # print(openai.api_key)
             analyze_solidity_file(file_path, output_file, gpt_model, loop)
             # time.sleep(3)
+            print('Running Loop: '+ str(loop) +" | "+ file_path)
             loop +=1
 
     output_file.write('\n]')  
