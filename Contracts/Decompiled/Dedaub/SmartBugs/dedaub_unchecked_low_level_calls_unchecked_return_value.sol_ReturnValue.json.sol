@@ -1,0 +1,35 @@
+// Decompiled by library.dedaub.com
+// 2023.11.08 22:09 UTC
+// Compiled using the solidity compiler version 0.4.7<=v<0.5.9
+
+
+
+
+
+function () public payable { 
+    revert();
+}
+
+function 0x7536185e(address varg0) public nonPayable { 
+    v0 = varg0.call().gas(msg.gas);
+    require(bool(v0));
+}
+
+function 0xbf9bd6cb(address varg0) public nonPayable { 
+    v0 = varg0.call().gas(msg.gas);
+}
+
+// Note: The function selector is not present in the original solidity code.
+// However, we display it for the sake of completeness.
+
+function __function_selector__(bytes4 function_selector) public payable { 
+    MEM[64] = 128;
+    if (msg.data.length >= 4) {
+        if (0x7536185e == uint32(function_selector >> 224)) {
+            0x7536185e();
+        } else if (0xbf9bd6cb == uint32(function_selector >> 224)) {
+            0xbf9bd6cb();
+        }
+    }
+    ();
+}
