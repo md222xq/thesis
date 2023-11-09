@@ -18,13 +18,13 @@ def analyze_solidity_file(file_path, gpt_model, test_run):
     try:
         with open(file_path, 'r', encoding='utf-8') as f:
             solidity_code = f.read()
-            print(solidity_code)
-            print(os.listdir())
+            # print(solidity_code)
+            # print(os.listdir())
 
         message = [
             {
                 "role": "system",
-                "content": "Analyze smart contracts for vulnerabilities and respond in JSON format with Rating: SAFE or VULNERABLE based on the smart contract."
+                "content": "you analyze smart contracts for vulnrabilities and respond in json format with Rating: SAFE or Vulnrabased based on the smart contract. your response only contains the rating."
             },
             {
                 "role": "user",
@@ -32,6 +32,19 @@ def analyze_solidity_file(file_path, gpt_model, test_run):
             }
         ]
 
+        # response = openai.ChatCompletion.create(
+        #     model=gpt_model,
+        #     messages=message,
+        #     temperature=1,
+        #     max_tokens=100,
+        #     top_p=1,
+        #     frequency_penalty=0,
+        #     presence_penalty=0
+        # )
+
+        # output = response.choices[0].text.strip() if response.choices else ""
+        # print("FOO"+output)
+        ##################################################
         response = openai.ChatCompletion.create(
             model=gpt_model,
             messages=message,
@@ -39,17 +52,24 @@ def analyze_solidity_file(file_path, gpt_model, test_run):
             max_tokens=100,
             top_p=1,
             frequency_penalty=0,
-            presence_penalty=0
+            presence_penalty=0,
+            stream=True
         )
 
-        output = response.choices[0].text.strip() if response.choices else ""
-        print(output)
+    
+        output = ""
+        for chunk in response:
+            content = chunk.choices[0].delta.get('content', '')
+            print(content)
+            output += content
+##################################################
         try:
             analysis = json.loads(output)
         except json.JSONDecodeError:
             analysis = {"raw_response": output}
 
     except Exception as e:
+        print(f"Error, {e}")
         analysis = {"error": f"Failed to analyze: {e}"}
 
     toc = time.perf_counter()
