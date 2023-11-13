@@ -1,0 +1,10 @@
+[
+  {
+    "test": 100,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_arithmetic_tokensalechallenge.sol_TokenSaleChallenge.json.sol",
+    "analysis": {
+      "error": "Failed to analyze: local variable 'response' referenced before assignment"
+    },
+    "time_taken": "0.3832s"
+  }
+]

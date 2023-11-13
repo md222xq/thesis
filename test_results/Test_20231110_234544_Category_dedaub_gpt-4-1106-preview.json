@@ -1,0 +1,1690 @@
+[
+  {
+    "test": 1,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_reentrancy_0x941d225236464a25eb18076df7da6a91d0f95e9e.sol_Log.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.3224s"
+  },
+  {
+    "test": 2,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0xb0510d68f210b7db66e8c7c814f22680f2b8d1d6.sol_Puppet.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Category\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.4328s"
+  },
+  {
+    "test": 3,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0x52d2e0f9b01101a59b38a3d05c80b7618aeed984.sol_EtherGet.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Category\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.4234s"
+  },
+  {
+    "test": 4,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_reentrancy_0x627fa62ccbb1c1b04ffaecd72a53e37fc0e17839.sol_TokenBank.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.3360s"
+  },
+  {
+    "test": 5,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_access_control_unprotected0.sol_Unprotected.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"access_control\"\n}\n```"
+    },
+    "time_taken": "1.5514s"
+  },
+  {
+    "test": 6,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_reentrancy_0x7541b76cb60f4c60af330c208b0623b7f54bf615.sol_Log.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.2391s"
+  },
+  {
+    "test": 7,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_arithmetic_BECToken.sol_Pausable.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"access_control\"\n}\n```"
+    },
+    "time_taken": "2.1092s"
+  },
+  {
+    "test": 8,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_reentrancy_0xf015c35649c82f5467c9c74b7f28ee67665aad68.sol_Log.json.sol",
+    "analysis": {
+      "error": "Failed to analyze: Request failed due to server shutdown {\n  \"error\": {\n    \"message\": \"Request failed due to server shutdown\",\n    \"type\": \"server_error\",\n    \"param\": null,\n    \"code\": null\n  }\n}\n 500 {'error': {'message': 'Request failed due to server shutdown', 'type': 'server_error', 'param': None, 'code': None}} {'Date': 'Fri, 10 Nov 2023 22:46:05 GMT', 'Content-Type': 'application/json', 'Content-Length': '141', 'Connection': 'keep-alive', 'access-control-allow-origin': '*', 'openai-model': 'gpt-4-1106-preview', 'openai-organization': 'user-ufyxcqkhbymnxdz58hjzpnrg', 'openai-processing-ms': '9902', 'openai-version': '2020-10-01', 'strict-transport-security': 'max-age=15724800; includeSubDomains', 'x-ratelimit-limit-requests': '10000', 'x-ratelimit-limit-tokens': '150000', 'x-ratelimit-remaining-requests': '9813', 'x-ratelimit-remaining-tokens': '148685', 'x-ratelimit-reset-requests': '26m50.354s', 'x-ratelimit-reset-tokens': '526ms', 'x-request-id': '8468172731f26f45ceb4aa0daff4ce4e', 'CF-Cache-Status': 'DYNAMIC', 'Set-Cookie': '__cf_bm=dvwx3xDtrcy4c76QOBKRN5RHN88fILcRo1bY_UEBAI8-1699656365-0-AZuXDW+oZ/vgiN9dkhuc+7s6t/QRURRk1BGWAah3BGRqxcc90mmnHxkaslSpLc1ooGMiq/iJimLD2KfC2GcXEYI=; path=/; expires=Fri, 10-Nov-23 23:16:05 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None', 'Server': 'cloudflare', 'CF-RAY': '8241d41b0ae63caa-CDG', 'alt-svc': 'h3=\":443\"; ma=86400'}"
+    },
+    "time_taken": "10.2778s"
+  },
+  {
+    "test": 9,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol_Proxy.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n    \"Rating\": \"VULNERABLE\",\n    \"Category\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.2327s"
+  },
+  {
+    "test": 10,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_access_control_parity_wallet_bug_2.sol_WalletLibrary.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"SAFE\",\n  \"vulnerability\": \"other\"\n}\n```"
+    },
+    "time_taken": "2.4261s"
+  },
+  {
+    "test": 11,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0x39cfd754c85023648bf003bea2dd498c5612abfa.sol_TokenBank.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Category\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.8923s"
+  },
+  {
+    "test": 12,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9.sol_Caller.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.9606s"
+  },
+  {
+    "test": 13,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0xb7c5c5aa4d42967efe906e1b66cb8df9cebf04f7.sol_keepMyEther.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.0743s"
+  },
+  {
+    "test": 14,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0xf70d589d76eebdd7c12cc5eec99f8f6fa4233b9e.sol_WhaleGiveaway2.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.0327s"
+  },
+  {
+    "test": 15,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_reentrancy_0x561eac93c92360949ab1f1403323e6db345cbf31.sol_BANK_SAFE.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Category\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.1906s"
+  },
+  {
+    "test": 16,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_front_running_ERC20.sol_ERC20.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n    \"Rating\": \"VULNERABLE\",\n    \"vulnerability\": \"arithmetic_integer_overflow\"\n}\n```"
+    },
+    "time_taken": "1.5104s"
+  },
+  {
+    "test": 17,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_short_addresses_short_address_example.sol_MyToken.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"arithmetic_integer_overflow\"\n}\n```"
+    },
+    "time_taken": "1.2847s"
+  },
+  {
+    "test": 18,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_reentrancy_0x23a91059fdc9579a9fbd0edc5f2ea0bfdb70deb4.sol_PrivateBank.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"unchecked_low_level_calls\"\n}\n```\n\nExplanation:\nIn the `CashOut` function of the provided smart contract, there is a low-level call `msg.sender.call().value(varg0).gas(msg.gas)` used to send Ether to the `msg.sender`. Although the contract checks whether the call returns true, indicating success, it does not check for the validity of the call return data"
+    },
+    "time_taken": "3.3164s"
+  },
+  {
+    "test": 19,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_arithmetic_integer_overflow_multitx_onefunc_feasible.sol_IntegerOverflowMultiTxOneFuncFeasible.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"SAFE\",\n  \"Vulnerability\": \"other\"\n}\n```"
+    },
+    "time_taken": "1.0424s"
+  },
+  {
+    "test": 20,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_bad_randomness_guess_the_random_number.sol_GuessTheRandomNumberChallenge.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "13.4509s"
+  },
+  {
+    "test": 21,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_reentrancy_0xb93430ce38ac4a6bb47fb1fc085ea669353fd89e.sol_Log.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.2788s"
+  },
+  {
+    "test": 22,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_bad_randomness_etheraffle.sol_Ethraffle_v4b.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\"Rating\": \"VULNERABLE\", \"Category\": \"unchecked_low_level_calls\"}\n```"
+    },
+    "time_taken": "1.1977s"
+  },
+  {
+    "test": 23,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol_EBU.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "3.8389s"
+  },
+  {
+    "test": 24,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_denial_of_service_dos_number.sol_DosNumber.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Category\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.0938s"
+  },
+  {
+    "test": 25,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol_StandardToken.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"arithmetic_integer_overflow\"\n}\n```"
+    },
+    "time_taken": "1.3646s"
+  },
+  {
+    "test": 26,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_reentrancy_0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12.sol_Private_Bank.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Category\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.4147s"
+  },
+  {
+    "test": 27,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0xb0510d68f210b7db66e8c7c814f22680f2b8d1d6.sol_SafeMath.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"SAFE\",\n  \"Vulnerability\": \"\"\n}\n```\n\nJustification: The given smart contract code is not demonstrating any clear functionality; it merely contains a single function that immediately reverts any transaction, without modifying any state or performing any operations that could be vulnerable to exploitation. There's no room for classic vulnerabilities to be exploited in a function that solely reverts without additional logic."
+    },
+    "time_taken": "2.3420s"
+  },
+  {
+    "test": 28,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_reentrancy_etherstore.sol_EtherStore.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability_Category\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.8130s"
+  },
+  {
+    "test": 29,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_access_control_simple_suicide.sol_SimpleSuicide.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"access_control\"\n}\n```"
+    },
+    "time_taken": "1.1462s"
+  },
+  {
+    "test": 30,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0xd5967fed03e85d1cce44cab284695b41bc675b5c.sol_demo.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.4118s"
+  },
+  {
+    "test": 31,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0x627fa62ccbb1c1b04ffaecd72a53e37fc0e17839.sol_Ownable.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability_Category\": \"access_control\"\n}\n```"
+    },
+    "time_taken": "1.3725s"
+  },
+  {
+    "test": 32,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0xec329ffc97d75fe03428ae155fc7793431487f63.sol_Owned.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n    \"Rating\": \"VULNERABLE\",\n    \"Vulnerability\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.3069s"
+  },
+  {
+    "test": 33,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_other_name_registrar.sol_NameRegistrar.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"access_control\"\n}\n```\n\nThe `register` function is supposed to set up some form of ownership or resolve mechanism, yet it doesn't have any access control modifiers, such as `onlyOwner` or `require(msg.sender == someAdminAddress)`. The use of the variable `_unlocked`, which appears to act as a lock, is simply set to the input of the function without any"
+    },
+    "time_taken": "3.9633s"
+  },
+  {
+    "test": 34,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_access_control_multiowned_vulnerable.sol_MultiOwnable.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"access_control\"\n}\n```\n\nVulnerability Explanation:\n\nThe smart contract contains an access control issue that allows any user to delete any owner. The `deleteOwner` function checks that the sender (`msg.sender`) is either the owner of the variable being passed (`varg0`) or that the `msg.sender` is the root owner; however, due to the improper use of casting to `"
+    },
+    "time_taken": "4.1448s"
+  },
+  {
+    "test": 35,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_reentrancy_0xaae1f51cf3339f18b6d3f3bdc75a5facd744b0b8.sol_DEP_BANK.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Category\": \"unchecked_low_level_calls\"\n}\n```\n\nThe smart contract contains a vulnerability in the unchecked direct low-level calls (`call()`) made in the `Collect` function. This function does not properly check the return value of the external calls to the `msg.sender` address and another external address stored in `stor_2_0_19`. It could be used for a denial of service or used by an"
+    },
+    "time_taken": "2.8820s"
+  },
+  {
+    "test": 36,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0xec329ffc97d75fe03428ae155fc7793431487f63.sol_TokenSender.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.5688s"
+  },
+  {
+    "test": 37,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_unchecked_return_value.sol_ReturnValue.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.7316s"
+  },
+  {
+    "test": 38,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_reentrancy_reentrancy_dao.sol_ReentrancyDAO.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.1580s"
+  },
+  {
+    "test": 39,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_reentrancy_0xbaf51e761510c1a11bf48dd87c0307ac8a8c8a4f.sol_Log.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.2107s"
+  },
+  {
+    "test": 40,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_reentrancy_spank_chain_payment.sol_StandardToken.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Category\": \"arithmetic_integer_overflow\"\n}\n```"
+    },
+    "time_taken": "2.0953s"
+  },
+  {
+    "test": 41,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0x39cfd754c85023648bf003bea2dd498c5612abfa.sol_Ownable.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Category\": \"access_control\"\n}\n```"
+    },
+    "time_taken": "1.7386s"
+  },
+  {
+    "test": 42,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_access_control_mapping_write.sol_Map.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"access_control\"\n}\n```"
+    },
+    "time_taken": "1.2424s"
+  },
+  {
+    "test": 43,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0x7d09edb07d23acb532a82be3da5c17d9d85806b4.sol_PoCGame.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.3813s"
+  },
+  {
+    "test": 44,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_access_control_incorrect_constructor_name3.sol_Missing.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"access_control\"\n}\n```"
+    },
+    "time_taken": "1.7126s"
+  },
+  {
+    "test": 45,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_reentrancy_0x7541b76cb60f4c60af330c208b0623b7f54bf615.sol_U_BANK.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Category\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.0910s"
+  },
+  {
+    "test": 46,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol_SafeMath.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Category\": \"denial_of_service\"\n}\n```"
+    },
+    "time_taken": "0.9986s"
+  },
+  {
+    "test": 47,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_bad_randomness_lottery.sol_Lottery.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.2686s"
+  },
+  {
+    "test": 48,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol_FreeEth.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.2171s"
+  },
+  {
+    "test": 49,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_reentrancy_0x7b368c4e805c3870b6c49a3f1f49f69af8662cf3.sol_Log.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"vulnerability_category\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "6.4095s"
+  },
+  {
+    "test": 50,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_reentrancy_0xbaf51e761510c1a11bf48dd87c0307ac8a8c8a4f.sol_ETH_VAULT.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.1840s"
+  },
+  {
+    "test": 51,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_reentrancy_simple_dao.sol_SimpleDAO.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Category\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.7926s"
+  },
+  {
+    "test": 52,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0x7a4349a749e59a5736efb7826ee3496a2dfd5489.sol_WhaleGiveaway1.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"access_control\"\n}\n```"
+    },
+    "time_taken": "1.2071s"
+  },
+  {
+    "test": 53,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_bad_randomness_blackjack.sol_BlackJack.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"denial_of_service\"\n}\n```"
+    },
+    "time_taken": "2.3581s"
+  },
+  {
+    "test": 54,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0x663e4229142a27f00bafb5d087e1e730648314c3.sol_PandaAuction.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "3.0650s"
+  },
+  {
+    "test": 55,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_arithmetic_insecure_transfer.sol_IntegerOverflowAdd.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"vulnerability_category\": \"arithmetic_integer_overflow\"\n}\n```"
+    },
+    "time_taken": "1.0433s"
+  },
+  {
+    "test": 56,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_lotto.sol_Lotto.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.1825s"
+  },
+  {
+    "test": 57,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_reentrancy_0x7a8721a9d64c74da899424c1b52acbf58ddc9782.sol_Log.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Category\": \"denial_of_service\"\n}\n```\n\nVulnerability Explanation:\nThe `AddMessage` function contains patterns of dynamic array handling that may be vulnerable to a Denial of Service (DoS) attack due to unbounded loops and array operations. The function copies data to/from storage and memory arrays without proper checks, potentially resulting in excessive gas consumption if the input data is large enough. This vulnerability can be"
+    },
+    "time_taken": "2.8107s"
+  },
+  {
+    "test": 58,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_reentrancy_modifier_reentrancy.sol_ModifierEntrancy.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.1398s"
+  },
+  {
+    "test": 59,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0x663e4229142a27f00bafb5d087e1e730648314c3.sol_SaleClockAuction.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Category\": \"bad_randomness\"\n}\n```"
+    },
+    "time_taken": "1.7111s"
+  },
+  {
+    "test": 60,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_reentrancy_reentrancy_simple.sol_Reentrance.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"unchecked_low_level_calls\"\n}\n```\n\nThe `withdrawBalance` function is using a low level `call` to send Ether, which can be risky without proper checks. This pattern allows for the possibility of a failure without proper handling, as no explicit checks are performed after the `call` for its success, except for a `require` statement that only checks the boolean result of the `call"
+    },
+    "time_taken": "2.8954s"
+  },
+  {
+    "test": 61,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_mishandled.sol_SendBack.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.1136s"
+  },
+  {
+    "test": 62,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0x663e4229142a27f00bafb5d087e1e730648314c3.sol_PandaCore.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"SAFE\",\n  \"Vulnerability\": \"other\"\n}\n```"
+    },
+    "time_taken": "4.2952s"
+  },
+  {
+    "test": 63,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082c.sol_Proxy.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Category\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.0617s"
+  },
+  {
+    "test": 64,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_access_control_FibonacciBalance.sol_FibonacciLib.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability_Category\": \"denial_of_service\"\n}\n```"
+    },
+    "time_taken": "1.6473s"
+  },
+  {
+    "test": 65,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0x663e4229142a27f00bafb5d087e1e730648314c3.sol_PandaBase.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"vulnerability\": \"access_control\"\n}\n```\n\nThe `setCEO`, `setCOO`, `setCFO`, `pause`, `unpause`, `setSecondsPerBlock`, and `setTotalWizzPandaOf` functions contain access control vulnerabilities. They rely on simple address checks against the `msg.sender`, which could potentially be compromised or incorrectly set. Additionally, there is no use of modern"
+    },
+    "time_taken": "3.7093s"
+  },
+  {
+    "test": 66,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0xb0510d68f210b7db66e8c7c814f22680f2b8d1d6.sol_Splitter.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Category\": \"access_control\"\n}\n```"
+    },
+    "time_taken": "1.9589s"
+  },
+  {
+    "test": 67,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0xbaa3de6504690efb064420d89e871c27065cdd52.sol_VaultProxy.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.1464s"
+  },
+  {
+    "test": 68,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0x663e4229142a27f00bafb5d087e1e730648314c3.sol_ClockAuctionBase.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"SAFE\",\n  \"Vulnerability\": \"other\"\n}\n```"
+    },
+    "time_taken": "1.2730s"
+  },
+  {
+    "test": 69,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_reentrancy_0xaae1f51cf3339f18b6d3f3bdc75a5facd744b0b8.sol_LogFile.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.3547s"
+  },
+  {
+    "test": 70,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0xb620cee6b52f96f3c6b253e6eea556aa2d214a99.sol_DrainMe.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Category\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.2502s"
+  },
+  {
+    "test": 71,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_other_crypto_roulette.sol_CryptoRoulette.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.3334s"
+  },
+  {
+    "test": 72,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_reentrancy_0x4e73b32ed6c35f570686b89848e5f39f20ecc106.sol_LogFile.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Category\": \"arithmetic_integer_overflow\"\n}\n```\n\nExplanation:\nThe given smart contract code contains an arithmetic operation that has the potential for an integer overflow. Specifically, the operation `1 + (v0.length + v0.length)` is used without safe math checks to increase the length of an array, which may lead to incorrect calculations if `v0.length` is close to the maximum value that can be represented in"
+    },
+    "time_taken": "2.5924s"
+  },
+  {
+    "test": 73,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_reentrancy_0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol_PENNY_BY_PENNY.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.3020s"
+  },
+  {
+    "test": 74,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0x610495793564aed0f9c7fc48dc4c7c9151d34fd6.sol_SimpleWallet.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.2983s"
+  },
+  {
+    "test": 75,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_reentrancy_0x941d225236464a25eb18076df7da6a91d0f95e9e.sol_ETH_FUND.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Category\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.1626s"
+  },
+  {
+    "test": 76,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0x663e4229142a27f00bafb5d087e1e730648314c3.sol_SiringClockAuction.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.7120s"
+  },
+  {
+    "test": 77,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bf.sol_Honey.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"access_control\"\n}\n```"
+    },
+    "time_taken": "1.3614s"
+  },
+  {
+    "test": 78,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0xe894d54dca59cb53fe9cbc5155093605c7068220.sol_airDrop.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Category\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.0284s"
+  },
+  {
+    "test": 79,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_bad_randomness_smart_billions.sol_SafeMath.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"SAFE\",\n  \"Vulnerability\": \"other\"\n}\n```"
+    },
+    "time_taken": "1.0518s"
+  },
+  {
+    "test": 80,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_bad_randomness_smart_billions.sol_SmartBillions.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "2.6299s"
+  },
+  {
+    "test": 81,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_arithmetic_BECToken.sol_SafeMath.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"SAFE\",\n  \"vulnerability_category\": \"other\"\n}\n```\n\nExplanation:\nThe provided snippet contains only a single fallback-like function that immediately triggers a revert, hence no state change or ether transfer is possible. There is no code that can be analyzed for traditional vulnerabilities. It might be that the actual contract is incomplete or incorrectly decompiled. Given the extremely limited functionality and immediate revert, it's marked as 'SAFE' for traditional security concerns, though"
+    },
+    "time_taken": "2.8190s"
+  },
+  {
+    "test": 82,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_arithmetic_timelock.sol_TimeLock.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.8248s"
+  },
+  {
+    "test": 83,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_denial_of_service_auction.sol_DosAuction.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n    \"Rating\": \"VULNERABLE\",\n    \"Vulnerability\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.1168s"
+  },
+  {
+    "test": 84,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_reentrancy_0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12.sol_Log.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.3151s"
+  },
+  {
+    "test": 85,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_access_control_proxy.sol_Proxy.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"access_control\"\n}\n```"
+    },
+    "time_taken": "2.2574s"
+  },
+  {
+    "test": 86,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0x663e4229142a27f00bafb5d087e1e730648314c3.sol_SaleClockAuctionERC20.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "2.8927s"
+  },
+  {
+    "test": 87,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_time_manipulation_ether_lotto.sol_EtherLotto.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"bad_randomness\"\n}\n```"
+    },
+    "time_taken": "1.2344s"
+  },
+  {
+    "test": 88,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_access_control_FibonacciBalance.sol_FibonacciBalance.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.4301s"
+  },
+  {
+    "test": 89,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_access_control_incorrect_constructor_name2.sol_Missing.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"access_control\"\n}\n```"
+    },
+    "time_taken": "1.0433s"
+  },
+  {
+    "test": 90,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0x9d06cbafa865037a01d322d3f4222fa3e04e5488.sol_Delta.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Category\": \"unchecked_low_level_calls\"\n}\n```\n\nThe `withdraw` function and `0x2f0` (which is called by the `tokens_buy` function and the fallback function) use low-level `.call` without checking the return value to send ether. This is an unsafe practice because the success of the call is not validated, potentially allowing the contract to think operations were successful when they were not."
+    },
+    "time_taken": "3.3327s"
+  },
+  {
+    "test": 91,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_reentrancy_0x7a8721a9d64c74da899424c1b52acbf58ddc9782.sol_PrivateDeposit.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Category\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.3218s"
+  },
+  {
+    "test": 92,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_arithmetic_BECToken.sol_BasicToken.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.2613s"
+  },
+  {
+    "test": 93,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_reentrancy_spank_chain_payment.sol_HumanStandardToken.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"vulnerability\": \"arithmetic_integer_overflow\"\n}\n```"
+    },
+    "time_taken": "1.3468s"
+  },
+  {
+    "test": 94,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_front_running_odds_and_evens.sol_OddsAndEvens.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.2331s"
+  },
+  {
+    "test": 95,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0x663e4229142a27f00bafb5d087e1e730648314c3.sol_Ownable.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"vulnerability\": \"access_control\"\n}\n```"
+    },
+    "time_taken": "1.2666s"
+  },
+  {
+    "test": 96,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_time_manipulation_lottopollo.sol_lottopollo.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"denial_of_service\"\n}\n```"
+    },
+    "time_taken": "1.3430s"
+  },
+  {
+    "test": 97,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_reentrancy_0xcead721ef5b11f1a7b530171aab69b16c5e66b6e.sol_Log.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.3766s"
+  },
+  {
+    "test": 98,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0x663e4229142a27f00bafb5d087e1e730648314c3.sol_ClockAuction.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.6916s"
+  },
+  {
+    "test": 99,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_reentrancy_0xcead721ef5b11f1a7b530171aab69b16c5e66b6e.sol_WALLET.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.2096s"
+  },
+  {
+    "test": 100,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_arithmetic_tokensalechallenge.sol_TokenSaleChallenge.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "3.6093s"
+  },
+  {
+    "test": 101,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_reentrancy_0xb93430ce38ac4a6bb47fb1fc085ea669353fd89e.sol_PrivateBank.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Category\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.1142s"
+  },
+  {
+    "test": 102,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_front_running_ERC20.sol_SafeMath.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"SAFE\",\n  \"vulnerability\": \"other\"\n}\n```"
+    },
+    "time_taken": "0.8232s"
+  },
+  {
+    "test": 103,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0x3e013fc32a54c4c5b6991ba539dcd0ec4355c859.sol_MultiplicatorX4.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.4812s"
+  },
+  {
+    "test": 104,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol_daoPOLSKAtokens.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Category\": \"denial_of_service\"\n}\n```"
+    },
+    "time_taken": "1.6867s"
+  },
+  {
+    "test": 105,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0xa1fceeff3acc57d257b917e30c4df661401d6431.sol_AirDropContract.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n    \"Rating\": \"VULNERABLE\",\n    \"Vulnerability\": \"unchecked_low_level_calls\"\n}\n```\n\nThis smart contract's `transfer` function appears to make low-level `transferFrom` calls without explicitly checking the return value for success or failure. Without verifying these calls' results, the contract cannot ensure that each transfer completes successfully. This absence of checks can lead to unhandled errors and unforeseen behavior, classifying it as an \"unchecked_low_level_calls"
+    },
+    "time_taken": "3.7334s"
+  },
+  {
+    "test": 106,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152.sol_airPort.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Category\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.2112s"
+  },
+  {
+    "test": 107,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_arithmetic_integer_overflow_mapping_sym_1.sol_IntegerOverflowMappingSym1.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"arithmetic_integer_overflow\"\n}\n```"
+    },
+    "time_taken": "1.0110s"
+  },
+  {
+    "test": 108,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0x78c2a1e91b52bca4130b6ed9edd9fbcfd4671c37.sol_WhaleGiveaway1.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"access_control\"\n}\n```"
+    },
+    "time_taken": "1.9006s"
+  },
+  {
+    "test": 109,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_reentrancy_0x93c32845fae42c83a70e5f06214c8433665c2ab5.sol_Log.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n    \"Rating\": \"VULNERABLE\",\n    \"Vulnerability\": \"denial_of_service\"\n}\n```"
+    },
+    "time_taken": "1.2267s"
+  },
+  {
+    "test": 110,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_reentrancy_reentrancy_bonus.sol_Reentrancy_bonus.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Category\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.0341s"
+  },
+  {
+    "test": 111,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_arithmetic_BECToken.sol_BecToken.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"denial_of_service\"\n}\n```"
+    },
+    "time_taken": "1.3589s"
+  },
+  {
+    "test": 112,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_arithmetic_BECToken.sol_PausableToken.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.4637s"
+  },
+  {
+    "test": 113,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_reentrancy_spank_chain_payment.sol_ECTools.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Category\": \"access_control\"\n}\n```"
+    },
+    "time_taken": "1.5643s"
+  },
+  {
+    "test": 114,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_arithmetic_token.sol_Token.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"arithmetic_integer_overflow\"\n}\n```"
+    },
+    "time_taken": "1.1088s"
+  },
+  {
+    "test": 115,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0x3f2ef511aa6e75231e4deafc7a3d2ecab3741de2.sol_WhaleGiveaway2.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"vulnerability\": \"access_control\"\n}\n```"
+    },
+    "time_taken": "1.2112s"
+  },
+  {
+    "test": 116,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_access_control_parity_wallet_bug_2.sol_WalletEvents.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Category\": \"denial_of_service\"\n}\n```"
+    },
+    "time_taken": "1.0042s"
+  },
+  {
+    "test": 117,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_bad_randomness_old_blockhash.sol_PredictTheBlockHashChallenge.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.0418s"
+  },
+  {
+    "test": 118,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_access_control_rubixi.sol_Rubixi.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"unchecked_low_level_calls\"\n}\n```\n\nExplanation:\n- The code uses low-level `.call()` operations without checking the success return value (`bool v2` and similar variables related to `.call()` usages). This neglects to handle cases where the call may fail, potentially leading to unforeseen behavior. For instance, in the `collectFeesInEther` function, there is a low"
+    },
+    "time_taken": "3.1368s"
+  },
+  {
+    "test": 119,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_reentrancy_0x01f8c4e3fa3edeb29e514cba738d87ce8c091d3f.sol_PERSONAL_BANK.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.3728s"
+  },
+  {
+    "test": 120,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0x89c1b3807d4c67df034fffb62f3509561218d30b.sol_TownCrier.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.5661s"
+  },
+  {
+    "test": 121,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_time_manipulation_governmental_survey.sol_Governmental.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.2886s"
+  },
+  {
+    "test": 122,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_time_manipulation_governmental_survey.sol_Attacker.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Category\": \"denial_of_service\"\n}\n```"
+    },
+    "time_taken": "2.2741s"
+  },
+  {
+    "test": 123,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_access_control_wallet_03_wrong_constructor.sol_Wallet.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.3304s"
+  },
+  {
+    "test": 124,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0x663e4229142a27f00bafb5d087e1e730648314c3.sol_ERC721Metadata.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"denial_of_service\"\n}\n```"
+    },
+    "time_taken": "1.1987s"
+  },
+  {
+    "test": 125,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol_WedIndex.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n    \"Rating\": \"VULNERABLE\",\n    \"Category\": \"access_control\"\n}\n```"
+    },
+    "time_taken": "1.4131s"
+  },
+  {
+    "test": 126,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_other_open_address_lottery.sol_OpenAddressLottery.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Category\": \"bad_randomness\"\n}\n```"
+    },
+    "time_taken": "1.3749s"
+  },
+  {
+    "test": 127,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0xe09b1ab8111c2729a76f16de96bc86a7af837928.sol_FiftyFlip.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Category\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.5911s"
+  },
+  {
+    "test": 128,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0x8fd1e427396ddb511533cf9abdbebd0a7e08da35.sol_Token.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "2.3053s"
+  },
+  {
+    "test": 129,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0x663e4229142a27f00bafb5d087e1e730648314c3.sol_PandaAccessControl.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"vulnerability\": \"access_control\"\n}\n```"
+    },
+    "time_taken": "1.0644s"
+  },
+  {
+    "test": 130,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_front_running_eth_tx_order_dependence_minimal.sol_EthTxOrderDependenceMinimal.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.4929s"
+  },
+  {
+    "test": 131,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_reentrancy_etherbank.sol_EtherBank.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.1064s"
+  },
+  {
+    "test": 132,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_access_control_wallet_04_confused_sign.sol_Wallet.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.3374s"
+  },
+  {
+    "test": 133,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_reentrancy_0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888.sol_Log.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.3554s"
+  },
+  {
+    "test": 134,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_reentrancy_modifier_reentrancy.sol_Bank.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"SAFE\",\n  \"Vulnerability\": \"access_control\"\n}\n```"
+    },
+    "time_taken": "0.9002s"
+  },
+  {
+    "test": 135,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol_MultiplicatorX3.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.1183s"
+  },
+  {
+    "test": 136,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_arithmetic_integer_overflow_multitx_multifunc_feasible.sol_IntegerOverflowMultiTxMultiFuncFeasible.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Category\": \"arithmetic_integer_overflow\"\n}\n```"
+    },
+    "time_taken": "1.0484s"
+  },
+  {
+    "test": 137,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0x663e4229142a27f00bafb5d087e1e730648314c3.sol_Pausable.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"SAFE\",\n  \"VulnerabilityCategory\": \"access_control\"\n}\n```"
+    },
+    "time_taken": "1.4181s"
+  },
+  {
+    "test": 138,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_king_of_the_ether_throne.sol_KingOfTheEtherThrone.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Category\": \"unchecked_low_level_calls\"\n}\n```\n\nExplanation:\nThe smart contract makes low-level calls using the `call.value().gas()` pattern, as seen in the `0x3b5()` private function, but does not check the return value of these calls to determine if they succeeded or failed. This can lead to vulnerabilities where the contract assumes a transfer has occurred when it may not have, potentially impacting the"
+    },
+    "time_taken": "3.7175s"
+  },
+  {
+    "test": 139,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0xa46edd6a9a93feec36576ee5048146870ea2c3ae.sol_EBU.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.1196s"
+  },
+  {
+    "test": 140,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_denial_of_service_send_loop.sol_Refunder.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.8231s"
+  },
+  {
+    "test": 141,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_reentrancy_0x8c7777c45481dba411450c228cb692ac3d550344.sol_Log.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "2.0924s"
+  },
+  {
+    "test": 142,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87.sol_Freebie.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"access_control\"\n}\n```"
+    },
+    "time_taken": "1.1467s"
+  },
+  {
+    "test": 143,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_time_manipulation_roulette.sol_Roulette.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.1533s"
+  },
+  {
+    "test": 144,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_denial_of_service_dos_simple.sol_DosOneFunc.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "2.3957s"
+  },
+  {
+    "test": 145,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_etherpot_lotto.sol_Lotto.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.5692s"
+  },
+  {
+    "test": 146,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0x958a8f594101d2c0485a52319f29b2647f2ebc06.sol_Marriage.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Category\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "3.3925s"
+  },
+  {
+    "test": 147,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0xb37f18af15bafb869a065b61fc83cfc44ed9cc27.sol_SimpleWallet.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.1315s"
+  },
+  {
+    "test": 148,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_arithmetic_BECToken.sol_Ownable.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"SAFE\",\n  \"Vulnerability\": \"none\"\n}\n```"
+    },
+    "time_taken": "1.0680s"
+  },
+  {
+    "test": 149,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_arithmetic_BECToken.sol_StandardToken.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"arithmetic_integer_overflow\"\n}\n```"
+    },
+    "time_taken": "1.2067s"
+  },
+  {
+    "test": 150,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_access_control_arbitrary_location_write_simple.sol_Wallet.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"denial_of_service\"\n}\n```"
+    },
+    "time_taken": "1.4275s"
+  },
+  {
+    "test": 151,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0x663e4229142a27f00bafb5d087e1e730648314c3.sol_PandaBreeding.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "2.7742s"
+  },
+  {
+    "test": 152,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_reentrancy_0xf015c35649c82f5467c9c74b7f28ee67665aad68.sol_MY_BANK.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.2168s"
+  },
+  {
+    "test": 153,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0x806a6bd219f162442d992bdc4ee6eba1f2c5a707.sol_Pie.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"vulnerability\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.0699s"
+  },
+  {
+    "test": 154,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_arithmetic_overflow_single_tx.sol_IntegerOverflowSingleTransaction.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Category\": \"arithmetic_integer_overflow\"\n}\n```"
+    },
+    "time_taken": "1.8598s"
+  },
+  {
+    "test": 155,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0x4051334adc52057aca763453820cb0e045076ef3.sol_airdrop.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.0376s"
+  },
+  {
+    "test": 156,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_access_control_phishable.sol_Phishable.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability_Category\": \"access_control\"\n}\n```"
+    },
+    "time_taken": "1.2692s"
+  },
+  {
+    "test": 157,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0xbaa3de6504690efb064420d89e871c27065cdd52.sol_Proxy.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.8604s"
+  },
+  {
+    "test": 158,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0x8fd1e427396ddb511533cf9abdbebd0a7e08da35.sol_TokenBank.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Category\": \"access_control\"\n}\n```"
+    },
+    "time_taken": "1.0392s"
+  },
+  {
+    "test": 159,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_arithmetic_integer_overflow_1.sol_Overflow.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n    \"Rating\": \"VULNERABLE\",\n    \"Vulnerability\": \"arithmetic_integer_overflow\"\n}\n```"
+    },
+    "time_taken": "1.0466s"
+  },
+  {
+    "test": 160,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_arithmetic_integer_overflow_add.sol_IntegerOverflowAdd.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"SAFE\",\n  \"Vulnerability\": \"other\"\n}\n```"
+    },
+    "time_taken": "0.8742s"
+  },
+  {
+    "test": 161,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_arithmetic_integer_overflow_mul.sol_IntegerOverflowMul.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"arithmetic_integer_overflow\"\n}\n```"
+    },
+    "time_taken": "0.9664s"
+  },
+  {
+    "test": 162,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0xf29ebe930a539a60279ace72c707cba851a57707.sol_B.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n    \"Rating\": \"VULNERABLE\",\n    \"Category\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.0694s"
+  },
+  {
+    "test": 163,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_arithmetic_overflow_simple_add.sol_Overflow_Add.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Category\": \"arithmetic_integer_overflow\"\n}\n```"
+    },
+    "time_taken": "0.9258s"
+  },
+  {
+    "test": 164,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_time_manipulation_timed_crowdsale.sol_TimedCrowdsale.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"SAFE\",\n  \"Vulnerability\": \"other\"\n}\n```"
+    },
+    "time_taken": "0.8440s"
+  },
+  {
+    "test": 165,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_reentrancy_modifier_reentrancy.sol_attack.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Category\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "2.9073s"
+  },
+  {
+    "test": 166,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_bad_randomness_lucky_doubler.sol_LuckyDoubler.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.9837s"
+  },
+  {
+    "test": 167,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_bad_randomness_random_number_generator.sol_RandomNumberGenerator.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Category\": \"denial_of_service\"\n}\n```"
+    },
+    "time_taken": "1.1000s"
+  },
+  {
+    "test": 168,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_reentrancy_0x561eac93c92360949ab1f1403323e6db345cbf31.sol_LogFile.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.3185s"
+  },
+  {
+    "test": 169,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_reentrancy_reentrancy_cross_function.sol_Reentrancy_cross_function.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.2854s"
+  },
+  {
+    "test": 170,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0x627fa62ccbb1c1b04ffaecd72a53e37fc0e17839.sol_Token.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.0619s"
+  },
+  {
+    "test": 171,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0x663e4229142a27f00bafb5d087e1e730648314c3.sol_PandaOwnership.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.8242s"
+  },
+  {
+    "test": 172,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_reentrancy_0x01f8c4e3fa3edeb29e514cba738d87ce8c091d3f.sol_LogFile.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability_Category\": \"denial_of_service\"\n}\n```"
+    },
+    "time_taken": "1.2306s"
+  },
+  {
+    "test": 173,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0x627fa62ccbb1c1b04ffaecd72a53e37fc0e17839.sol_TokenBank.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.1633s"
+  },
+  {
+    "test": 174,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0x3a0e9acd953ffc0dd18d63603488846a6b8b2b01.sol_Ownable.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"SAFE\",\n  \"Vulnerability\": \"none\"\n}\n```"
+    },
+    "time_taken": "0.9947s"
+  },
+  {
+    "test": 175,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_reentrancy_0x4320e6f8c05b27ab4707cd1f6d5ce6f3e4b3a5a1.sol_LogFile.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Category\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.4945s"
+  },
+  {
+    "test": 176,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_reentrancy_0x7b368c4e805c3870b6c49a3f1f49f69af8662cf3.sol_W_WALLET.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.8966s"
+  },
+  {
+    "test": 177,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_front_running_FindThisHash.sol_FindThisHash.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n    \"Rating\": \"VULNERABLE\",\n    \"Vulnerability\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.5637s"
+  },
+  {
+    "test": 178,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0x3a0e9acd953ffc0dd18d63603488846a6b8b2b01.sol_TokenBank.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Category\": \"access_control\"\n}\n```"
+    },
+    "time_taken": "1.0415s"
+  },
+  {
+    "test": 179,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_access_control_wallet_02_refund_nosub.sol_Wallet.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"VulnerabilityCategory\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.1136s"
+  },
+  {
+    "test": 180,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082c.sol_VaultProxy.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Category\": \"access_control\"\n}\n```\n\nExplanation:\n- The contract has an issue in the `transferOwner` function. It allows any address stored in `_transferOwner` to change `_transferOwner` to any other address without any further checks. There is no function to set `_transferOwner` to a safe initial state, leaving the contract's ownership control at risk.\n- The `Vault` function attempts to set"
+    },
+    "time_taken": "3.0653s"
+  },
+  {
+    "test": 181,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0xd2018bfaa266a9ec0a1a84b061640faa009def76.sol_Pie.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Category\": \"access_control\"\n}\n```"
+    },
+    "time_taken": "1.0864s"
+  },
+  {
+    "test": 182,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_bad_randomness_blackjack.sol_Deck.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"SAFE\",\n  \"Vulnerability\": \"other\"\n}\n```"
+    },
+    "time_taken": "0.9993s"
+  },
+  {
+    "test": 183,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_reentrancy_0x627fa62ccbb1c1b04ffaecd72a53e37fc0e17839.sol_Ownable.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"access_control\"\n}\n```"
+    },
+    "time_taken": "12.1771s"
+  },
+  {
+    "test": 184,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_denial_of_service_dos_address.sol_DosGas.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.6723s"
+  },
+  {
+    "test": 185,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_arithmetic_integer_overflow_benign_1.sol_IntegerOverflowBenign1.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"other\"\n}\n```"
+    },
+    "time_taken": "1.6255s"
+  },
+  {
+    "test": 186,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_access_control_multiowned_vulnerable.sol_TestContract.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"access_control\"\n}\n```"
+    },
+    "time_taken": "1.3229s"
+  },
+  {
+    "test": 187,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_reentrancy_0x4e73b32ed6c35f570686b89848e5f39f20ecc106.sol_PRIVATE_ETH_CELL.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.5110s"
+  },
+  {
+    "test": 188,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0x663e4229142a27f00bafb5d087e1e730648314c3.sol_PandaMinting.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability_Category\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "3.1428s"
+  },
+  {
+    "test": 189,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_denial_of_service_list_dos.sol_Government.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability_Category\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.4231s"
+  },
+  {
+    "test": 190,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_reentrancy_0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol_LogFile.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"unchecked_low_level_calls\"\n}\n```\n\nExplanation:\nThe smart contract's `AddMessage` function contains a vulnerability where it performs low-level operations on storage with CALLDATACOPY and direct storage reads and writes without proper checks. Specifically, it uses `CALLDATACOPY` to copy call data into memory and then utilizes raw storage operations to write into contract storage without ensuring data integrity or managing the"
+    },
+    "time_taken": "3.0008s"
+  },
+  {
+    "test": 191,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_reentrancy_reentrancy_insecure.sol_Reentrancy_insecure.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"reentrancy\"\n}\n```"
+    },
+    "time_taken": "1.8397s"
+  },
+  {
+    "test": 192,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4.sol_HomeyJar.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n    \"Rating\": \"VULNERABLE\",\n    \"Category\": \"access_control\"\n}\n```"
+    },
+    "time_taken": "1.5679s"
+  },
+  {
+    "test": 193,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_access_control_mycontract.sol_MyContract.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.7544s"
+  },
+  {
+    "test": 194,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_reentrancy_0x93c32845fae42c83a70e5f06214c8433665c2ab5.sol_X_WALLET.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.1859s"
+  },
+  {
+    "test": 195,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0x3a0e9acd953ffc0dd18d63603488846a6b8b2b01.sol_Token.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.0817s"
+  },
+  {
+    "test": 196,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_reentrancy_0x8c7777c45481dba411450c228cb692ac3d550344.sol_ETH_VAULT.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Category\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.1955s"
+  },
+  {
+    "test": 197,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0x2972d548497286d18e92b5fa1f8f9139e5653fd2.sol_demo.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Category\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.0432s"
+  },
+  {
+    "test": 198,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0x39cfd754c85023648bf003bea2dd498c5612abfa.sol_Token.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Category\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.2248s"
+  },
+  {
+    "test": 199,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_reentrancy_0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888.sol_MONEY_BOX.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.4595s"
+  },
+  {
+    "test": 200,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_reentrancy_reentrance.sol_Reentrance.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Category\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "2.0104s"
+  },
+  {
+    "test": 201,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0x958a8f594101d2c0485a52319f29b2647f2ebc06.sol_Owned.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Category\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.0944s"
+  },
+  {
+    "test": 202,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol_DepositProxy.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"access_control\"\n}\n```"
+    },
+    "time_taken": "1.2639s"
+  },
+  {
+    "test": 203,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_reentrancy_0x23a91059fdc9579a9fbd0edc5f2ea0bfdb70deb4.sol_Log.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Category\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.0422s"
+  },
+  {
+    "test": 204,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_arithmetic_integer_overflow_minimal.sol_IntegerOverflowMinimal.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Category\": \"arithmetic_integer_overflow\"\n}\n```"
+    },
+    "time_taken": "1.0004s"
+  },
+  {
+    "test": 205,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0x524960d55174d912768678d8c606b4d50b79d7b1.sol_Centra4.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "0.9845s"
+  },
+  {
+    "test": 206,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_reentrancy_0x4320e6f8c05b27ab4707cd1f6d5ce6f3e4b3a5a1.sol_ACCURAL_DEPOSIT.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.0768s"
+  },
+  {
+    "test": 207,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol_Owned.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"access_control\"\n}\n```"
+    },
+    "time_taken": "2.4723s"
+  },
+  {
+    "test": 208,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_reentrancy_0x627fa62ccbb1c1b04ffaecd72a53e37fc0e17839.sol_Token.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Category\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.1482s"
+  },
+  {
+    "test": 209,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0x8fd1e427396ddb511533cf9abdbebd0a7e08da35.sol_Ownable.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"access_control\"\n}\n```"
+    },
+    "time_taken": "1.4535s"
+  },
+  {
+    "test": 210,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0x07f7ecb66d788ab01dc93b9b71a88401de7d0f2e.sol_PoCGame.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.1983s"
+  },
+  {
+    "test": 211,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0xf2570186500a46986f3139f65afedc2afe4f445d.sol_RealOldFuckMaker.json.sol",
+    "analysis": {
+      "raw_response": "```json\n{\n  \"Rating\": \"VULNERABLE\",\n  \"Vulnerability\": \"unchecked_low_level_calls\"\n}\n```"
+    },
+    "time_taken": "1.3223s"
+  }
+]

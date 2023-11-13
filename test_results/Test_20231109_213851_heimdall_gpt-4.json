@@ -1,0 +1,394 @@
+[
+  {
+    "test": 1,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_unchecked_low_level_calls_0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152.sol_airPort.json.hex.sol",
+    "analysis": {
+      "Rating": "Vulnrabased"
+    },
+    "time_taken": "1.8056s"
+  },
+  {
+    "test": 2,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_unchecked_low_level_calls_0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol_Owned.json.hex.sol",
+    "analysis": {
+      "Rating": "Vulnrabased"
+    },
+    "time_taken": "1.9680s"
+  },
+  {
+    "test": 3,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_unchecked_low_level_calls_0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol_tokenRecipient.json.hex.sol",
+    "analysis": {
+      "Rating": "SAFE"
+    },
+    "time_taken": "1.0190s"
+  },
+  {
+    "test": 4,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_time_manipulation_ether_lotto.sol_EtherLotto.json.hex.sol",
+    "analysis": {
+      "Rating": "Vulnrabased"
+    },
+    "time_taken": "1.7562s"
+  },
+  {
+    "test": 5,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_unchecked_low_level_calls_0xb0510d68f210b7db66e8c7c814f22680f2b8d1d6.sol_Puppet.json.hex.sol",
+    "analysis": {
+      "Rating": "Vulnrabased"
+    },
+    "time_taken": "1.3871s"
+  },
+  {
+    "test": 6,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_unchecked_low_level_calls_0x663e4229142a27f00bafb5d087e1e730648314c3.sol_ERC721.json.hex.sol",
+    "analysis": {
+      "Rating": "SAFE"
+    },
+    "time_taken": "0.9442s"
+  },
+  {
+    "test": 7,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_access_control_incorrect_constructor_name3.sol_Missing.json.hex.sol",
+    "analysis": {
+      "Rating": "Vulnrabased"
+    },
+    "time_taken": "1.4847s"
+  },
+  {
+    "test": 8,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_unchecked_low_level_calls_0x958a8f594101d2c0485a52319f29b2647f2ebc06.sol_Marriage.json.hex.sol",
+    "analysis": {
+      "error": "Failed to analyze: This model's maximum context length is 8192 tokens. However, your messages resulted in 8573 tokens. Please reduce the length of the messages."
+    },
+    "time_taken": "0.3616s"
+  },
+  {
+    "test": 9,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_unchecked_low_level_calls_0xb0510d68f210b7db66e8c7c814f22680f2b8d1d6.sol_Splitter.json.hex.sol",
+    "analysis": {
+      "error": "Failed to analyze: Rate limit reached for gpt-4 in organization org-LfEzNewo4HZ2A7DS5JFhMA7R on tokens per min (TPM): Limit 10000, Used 8811, Requested 1256. Please try again in 402ms. Visit https://platform.openai.com/account/rate-limits to learn more."
+    },
+    "time_taken": "0.2075s"
+  },
+  {
+    "test": 10,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_reentrancy_0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol_LogFile.json.hex.sol",
+    "analysis": {
+      "error": "Failed to analyze: Rate limit reached for gpt-4 in organization org-LfEzNewo4HZ2A7DS5JFhMA7R on tokens per min (TPM): Limit 10000, Used 8777, Requested 1540. Please try again in 1.902s. Visit https://platform.openai.com/account/rate-limits to learn more."
+    },
+    "time_taken": "0.1958s"
+  },
+  {
+    "test": 11,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_unchecked_low_level_calls_0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4.sol_HomeyJar.json.hex.sol",
+    "analysis": {
+      "Rating": "Vulnrabased"
+    },
+    "time_taken": "1.2158s"
+  },
+  {
+    "test": 12,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_reentrancy_modifier_reentrancy.sol_ModifierEntrancy.json.hex.sol",
+    "analysis": {
+      "error": "Failed to analyze: Rate limit reached for gpt-4 in organization org-LfEzNewo4HZ2A7DS5JFhMA7R on tokens per min (TPM): Limit 10000, Used 9429, Requested 681. Please try again in 660ms. Visit https://platform.openai.com/account/rate-limits to learn more."
+    },
+    "time_taken": "0.3013s"
+  },
+  {
+    "test": 13,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_unchecked_low_level_calls_0xd5967fed03e85d1cce44cab284695b41bc675b5c.sol_demo.json.hex.sol",
+    "analysis": {
+      "error": "Failed to analyze: Rate limit reached for gpt-4 in organization org-LfEzNewo4HZ2A7DS5JFhMA7R on tokens per min (TPM): Limit 10000, Used 9378, Requested 625. Please try again in 18ms. Visit https://platform.openai.com/account/rate-limits to learn more."
+    },
+    "time_taken": "0.2033s"
+  },
+  {
+    "test": 14,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_reentrancy_reentrancy_bonus.sol_Reentrancy_bonus.json.hex.sol",
+    "analysis": {
+      "Rating": "Vulnrabased"
+    },
+    "time_taken": "1.3651s"
+  },
+  {
+    "test": 15,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_reentrancy_0xb93430ce38ac4a6bb47fb1fc085ea669353fd89e.sol_Log.json.hex.sol",
+    "analysis": {
+      "error": "Failed to analyze: Rate limit reached for gpt-4 in organization org-LfEzNewo4HZ2A7DS5JFhMA7R on tokens per min (TPM): Limit 10000, Used 9753, Requested 1540. Please try again in 7.758s. Visit https://platform.openai.com/account/rate-limits to learn more."
+    },
+    "time_taken": "0.1880s"
+  },
+  {
+    "test": 16,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_reentrancy_etherstore.sol_EtherStore.json.hex.sol",
+    "analysis": {
+      "error": "Failed to analyze: Rate limit reached for gpt-4 in organization org-LfEzNewo4HZ2A7DS5JFhMA7R on tokens per min (TPM): Limit 10000, Used 9722, Requested 836. Please try again in 3.348s. Visit https://platform.openai.com/account/rate-limits to learn more."
+    },
+    "time_taken": "0.2011s"
+  },
+  {
+    "test": 17,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_unchecked_low_level_calls_0xbaa3de6504690efb064420d89e871c27065cdd52.sol_Proxy.json.hex.sol",
+    "analysis": {
+      "error": "Failed to analyze: Rate limit reached for gpt-4 in organization org-LfEzNewo4HZ2A7DS5JFhMA7R on tokens per min (TPM): Limit 10000, Used 9687, Requested 652. Please try again in 2.034s. Visit https://platform.openai.com/account/rate-limits to learn more."
+    },
+    "time_taken": "0.2036s"
+  },
+  {
+    "test": 18,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_reentrancy_spank_chain_payment.sol_ECTools.json.hex.sol",
+    "analysis": {
+      "error": "Failed to analyze: Rate limit reached for gpt-4 in organization org-LfEzNewo4HZ2A7DS5JFhMA7R on tokens per min (TPM): Limit 10000, Used 9648, Requested 4636. Please try again in 25.704s. Visit https://platform.openai.com/account/rate-limits to learn more."
+    },
+    "time_taken": "0.2601s"
+  },
+  {
+    "test": 19,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_reentrancy_0x4e73b32ed6c35f570686b89848e5f39f20ecc106.sol_PRIVATE_ETH_CELL.json.hex.sol",
+    "analysis": {
+      "error": "Failed to analyze: Rate limit reached for gpt-4 in organization org-LfEzNewo4HZ2A7DS5JFhMA7R on tokens per min (TPM): Limit 10000, Used 9611, Requested 1071. Please try again in 4.092s. Visit https://platform.openai.com/account/rate-limits to learn more."
+    },
+    "time_taken": "0.1930s"
+  },
+  {
+    "test": 20,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_unchecked_low_level_calls_0x663e4229142a27f00bafb5d087e1e730648314c3.sol_SiringClockAuction.json.hex.sol",
+    "analysis": {
+      "error": "Failed to analyze: Rate limit reached for gpt-4 in organization org-LfEzNewo4HZ2A7DS5JFhMA7R on tokens per min (TPM): Limit 10000, Used 9577, Requested 3580. Please try again in 18.942s. Visit https://platform.openai.com/account/rate-limits to learn more."
+    },
+    "time_taken": "0.2009s"
+  },
+  {
+    "test": 21,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_unchecked_low_level_calls_unchecked_return_value.sol_ReturnValue.json.hex.sol",
+    "analysis": {
+      "error": "Failed to analyze: Rate limit reached for gpt-4 in organization org-LfEzNewo4HZ2A7DS5JFhMA7R on tokens per min (TPM): Limit 10000, Used 9541, Requested 533. Please try again in 444ms. Visit https://platform.openai.com/account/rate-limits to learn more."
+    },
+    "time_taken": "0.2064s"
+  },
+  {
+    "test": 22,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_unchecked_low_level_calls_0xd2018bfaa266a9ec0a1a84b061640faa009def76.sol_Pie.json.hex.sol",
+    "analysis": {
+      "error": "Failed to analyze: Rate limit reached for gpt-4 in organization org-LfEzNewo4HZ2A7DS5JFhMA7R on tokens per min (TPM): Limit 10000, Used 9509, Requested 883. Please try again in 2.352s. Visit https://platform.openai.com/account/rate-limits to learn more."
+    },
+    "time_taken": "0.2006s"
+  },
+  {
+    "test": 23,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_reentrancy_0x7b368c4e805c3870b6c49a3f1f49f69af8662cf3.sol_W_WALLET.json.hex.sol",
+    "analysis": {
+      "error": "Failed to analyze: Rate limit reached for gpt-4 in organization org-LfEzNewo4HZ2A7DS5JFhMA7R on tokens per min (TPM): Limit 10000, Used 9477, Requested 947. Please try again in 2.544s. Visit https://platform.openai.com/account/rate-limits to learn more."
+    },
+    "time_taken": "0.2377s"
+  },
+  {
+    "test": 24,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_bad_randomness_blackjack.sol_BlackJack.json.hex.sol",
+    "analysis": {
+      "error": "Failed to analyze: Rate limit reached for gpt-4 in organization org-LfEzNewo4HZ2A7DS5JFhMA7R on tokens per min (TPM): Limit 10000, Used 9433, Requested 7385. Please try again in 40.908s. Visit https://platform.openai.com/account/rate-limits to learn more."
+    },
+    "time_taken": "0.2276s"
+  },
+  {
+    "test": 25,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_front_running_FindThisHash.sol_FindThisHash.json.hex.sol",
+    "analysis": {
+      "error": "Failed to analyze: Rate limit reached for gpt-4 in organization org-LfEzNewo4HZ2A7DS5JFhMA7R on tokens per min (TPM): Limit 10000, Used 9391, Requested 622. Please try again in 78ms. Visit https://platform.openai.com/account/rate-limits to learn more."
+    },
+    "time_taken": "0.2945s"
+  },
+  {
+    "test": 26,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_unchecked_low_level_calls_0x806a6bd219f162442d992bdc4ee6eba1f2c5a707.sol_Pie.json.hex.sol",
+    "analysis": {
+      "error": "Failed to analyze: Rate limit reached for gpt-4 in organization org-LfEzNewo4HZ2A7DS5JFhMA7R on tokens per min (TPM): Limit 10000, Used 9348, Requested 884. Please try again in 1.392s. Visit https://platform.openai.com/account/rate-limits to learn more."
+    },
+    "time_taken": "0.1884s"
+  },
+  {
+    "test": 27,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_arithmetic_insecure_transfer.sol_IntegerOverflowAdd.json.hex.sol",
+    "analysis": {
+      "Rating": "Vulnrabased"
+    },
+    "time_taken": "1.1836s"
+  },
+  {
+    "test": 28,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_reentrancy_reentrancy_insecure.sol_Reentrancy_insecure.json.hex.sol",
+    "analysis": {
+      "error": "Failed to analyze: Rate limit reached for gpt-4 in organization org-LfEzNewo4HZ2A7DS5JFhMA7R on tokens per min (TPM): Limit 10000, Used 9741, Requested 447. Please try again in 1.128s. Visit https://platform.openai.com/account/rate-limits to learn more."
+    },
+    "time_taken": "0.1929s"
+  },
+  {
+    "test": 29,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_unchecked_low_level_calls_0x3e013fc32a54c4c5b6991ba539dcd0ec4355c859.sol_MultiplicatorX4.json.hex.sol",
+    "analysis": {
+      "error": "Failed to analyze: Rate limit reached for gpt-4 in organization org-LfEzNewo4HZ2A7DS5JFhMA7R on tokens per min (TPM): Limit 10000, Used 9704, Requested 836. Please try again in 3.24s. Visit https://platform.openai.com/account/rate-limits to learn more."
+    },
+    "time_taken": "0.2073s"
+  },
+  {
+    "test": 30,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_access_control_parity_wallet_bug_2.sol_WalletEvents.json.hex.sol",
+    "analysis": {
+      "error": "Failed to analyze: Rate limit reached for gpt-4 in organization org-LfEzNewo4HZ2A7DS5JFhMA7R on tokens per min (TPM): Limit 10000, Used 9670, Requested 346. Please try again in 96ms. Visit https://platform.openai.com/account/rate-limits to learn more."
+    },
+    "time_taken": "0.2040s"
+  },
+  {
+    "test": 31,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_reentrancy_reentrance.sol_Reentrance.json.hex.sol",
+    "analysis": {
+      "error": "Failed to analyze: Rate limit reached for gpt-4 in organization org-LfEzNewo4HZ2A7DS5JFhMA7R on tokens per min (TPM): Limit 10000, Used 9625, Requested 682. Please try again in 1.842s. Visit https://platform.openai.com/account/rate-limits to learn more."
+    },
+    "time_taken": "0.3007s"
+  },
+  {
+    "test": 32,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_unchecked_low_level_calls_0x8fd1e427396ddb511533cf9abdbebd0a7e08da35.sol_TokenBank.json.hex.sol",
+    "analysis": {
+      "error": "Failed to analyze: Rate limit reached for gpt-4 in organization org-LfEzNewo4HZ2A7DS5JFhMA7R on tokens per min (TPM): Limit 10000, Used 9582, Requested 1553. Please try again in 6.81s. Visit https://platform.openai.com/account/rate-limits to learn more."
+    },
+    "time_taken": "0.2234s"
+  },
+  {
+    "test": 33,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_reentrancy_0xbaf51e761510c1a11bf48dd87c0307ac8a8c8a4f.sol_Log.json.hex.sol",
+    "analysis": {
+      "error": "Failed to analyze: Rate limit reached for gpt-4 in organization org-LfEzNewo4HZ2A7DS5JFhMA7R on tokens per min (TPM): Limit 10000, Used 9551, Requested 1540. Please try again in 6.546s. Visit https://platform.openai.com/account/rate-limits to learn more."
+    },
+    "time_taken": "0.1982s"
+  },
+  {
+    "test": 34,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_unchecked_low_level_calls_king_of_the_ether_throne.sol_KingOfTheEtherThrone.json.hex.sol",
+    "analysis": {
+      "error": "Failed to analyze: Rate limit reached for gpt-4 in organization org-LfEzNewo4HZ2A7DS5JFhMA7R on tokens per min (TPM): Limit 10000, Used 9501, Requested 1775. Please try again in 7.655s. Visit https://platform.openai.com/account/rate-limits to learn more."
+    },
+    "time_taken": "0.2792s"
+  },
+  {
+    "test": 35,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_reentrancy_0x7541b76cb60f4c60af330c208b0623b7f54bf615.sol_U_BANK.json.hex.sol",
+    "analysis": {
+      "error": "Failed to analyze: Rate limit reached for gpt-4 in organization org-LfEzNewo4HZ2A7DS5JFhMA7R on tokens per min (TPM): Limit 10000, Used 9453, Requested 950. Please try again in 2.418s. Visit https://platform.openai.com/account/rate-limits to learn more."
+    },
+    "time_taken": "0.3333s"
+  },
+  {
+    "test": 36,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_unchecked_low_level_calls_0xe09b1ab8111c2729a76f16de96bc86a7af837928.sol_FiftyFlip.json.hex.sol",
+    "analysis": {
+      "error": "Failed to analyze: Rate limit reached for gpt-4 in organization org-LfEzNewo4HZ2A7DS5JFhMA7R on tokens per min (TPM): Limit 10000, Used 9409, Requested 4778. Please try again in 25.122s. Visit https://platform.openai.com/account/rate-limits to learn more."
+    },
+    "time_taken": "0.2116s"
+  },
+  {
+    "test": 37,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_arithmetic_BECToken.sol_BecToken.json.hex.sol",
+    "analysis": {
+      "error": "Failed to analyze: Rate limit reached for gpt-4 in organization org-LfEzNewo4HZ2A7DS5JFhMA7R on tokens per min (TPM): Limit 10000, Used 9376, Requested 2480. Please try again in 11.136s. Visit https://platform.openai.com/account/rate-limits to learn more."
+    },
+    "time_taken": "0.2119s"
+  },
+  {
+    "test": 38,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_reentrancy_spank_chain_payment.sol_Token.json.hex.sol",
+    "analysis": {
+      "Rating": "SAFE"
+    },
+    "time_taken": "0.7798s"
+  },
+  {
+    "test": 39,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_unchecked_low_level_calls_0x52d2e0f9b01101a59b38a3d05c80b7618aeed984.sol_EtherGet.json.hex.sol",
+    "analysis": {
+      "error": "Failed to analyze: Rate limit reached for gpt-4 in organization org-LfEzNewo4HZ2A7DS5JFhMA7R on tokens per min (TPM): Limit 10000, Used 9557, Requested 757. Please try again in 1.883s. Visit https://platform.openai.com/account/rate-limits to learn more."
+    },
+    "time_taken": "0.1974s"
+  },
+  {
+    "test": 40,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_arithmetic_integer_overflow_add.sol_IntegerOverflowAdd.json.hex.sol",
+    "analysis": {
+      "Rating": "Vulnrabased"
+    },
+    "time_taken": "1.0676s"
+  },
+  {
+    "test": 41,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_unchecked_low_level_calls_0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol_FreeEth.json.hex.sol",
+    "analysis": {
+      "error": "Failed to analyze: Rate limit reached for gpt-4 in organization org-LfEzNewo4HZ2A7DS5JFhMA7R on tokens per min (TPM): Limit 10000, Used 9800, Requested 886. Please try again in 4.116s. Visit https://platform.openai.com/account/rate-limits to learn more."
+    },
+    "time_taken": "0.2099s"
+  },
+  {
+    "test": 42,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_access_control_wallet_03_wrong_constructor.sol_Wallet.json.hex.sol",
+    "analysis": {
+      "error": "Failed to analyze: Rate limit reached for gpt-4 in organization org-LfEzNewo4HZ2A7DS5JFhMA7R on tokens per min (TPM): Limit 10000, Used 9767, Requested 753. Please try again in 3.12s. Visit https://platform.openai.com/account/rate-limits to learn more."
+    },
+    "time_taken": "0.2700s"
+  },
+  {
+    "test": 43,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_reentrancy_0x7a8721a9d64c74da899424c1b52acbf58ddc9782.sol_Log.json.hex.sol",
+    "analysis": {
+      "error": "Failed to analyze: Rate limit reached for gpt-4 in organization org-LfEzNewo4HZ2A7DS5JFhMA7R on tokens per min (TPM): Limit 10000, Used 9719, Requested 1540. Please try again in 7.554s. Visit https://platform.openai.com/account/rate-limits to learn more."
+    },
+    "time_taken": "0.2099s"
+  },
+  {
+    "test": 44,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_reentrancy_0x627fa62ccbb1c1b04ffaecd72a53e37fc0e17839.sol_Token.json.hex.sol",
+    "analysis": {
+      "error": "Failed to analyze: Rate limit reached for gpt-4 in organization org-LfEzNewo4HZ2A7DS5JFhMA7R on tokens per min (TPM): Limit 10000, Used 9687, Requested 744. Please try again in 2.586s. Visit https://platform.openai.com/account/rate-limits to learn more."
+    },
+    "time_taken": "0.1906s"
+  },
+  {
+    "test": 45,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_reentrancy_0x627fa62ccbb1c1b04ffaecd72a53e37fc0e17839.sol_TokenBank.json.hex.sol",
+    "analysis": {
+      "error": "Failed to analyze: Rate limit reached for gpt-4 in organization org-LfEzNewo4HZ2A7DS5JFhMA7R on tokens per min (TPM): Limit 10000, Used 9655, Requested 1509. Please try again in 6.984s. Visit https://platform.openai.com/account/rate-limits to learn more."
+    },
+    "time_taken": "0.1899s"
+  },
+  {
+    "test": 46,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_reentrancy_0x8c7777c45481dba411450c228cb692ac3d550344.sol_ETH_VAULT.json.hex.sol",
+    "analysis": {
+      "error": "Failed to analyze: Rate limit reached for gpt-4 in organization org-LfEzNewo4HZ2A7DS5JFhMA7R on tokens per min (TPM): Limit 10000, Used 9620, Requested 810. Please try again in 2.58s. Visit https://platform.openai.com/account/rate-limits to learn more."
+    },
+    "time_taken": "0.2186s"
+  },
+  {
+    "test": 47,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_unchecked_low_level_calls_0x663e4229142a27f00bafb5d087e1e730648314c3.sol_SaleClockAuction.json.hex.sol",
+    "analysis": {
+      "error": "Failed to analyze: Rate limit reached for gpt-4 in organization org-LfEzNewo4HZ2A7DS5JFhMA7R on tokens per min (TPM): Limit 10000, Used 9582, Requested 4951. Please try again in 27.198s. Visit https://platform.openai.com/account/rate-limits to learn more."
+    },
+    "time_taken": "0.2250s"
+  },
+  {
+    "test": 48,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_denial_of_service_list_dos.sol_Government.json.hex.sol",
+    "analysis": {
+      "error": "Failed to analyze: Rate limit reached for gpt-4 in organization org-LfEzNewo4HZ2A7DS5JFhMA7R on tokens per min (TPM): Limit 10000, Used 9546, Requested 3493. Please try again in 18.234s. Visit https://platform.openai.com/account/rate-limits to learn more."
+    },
+    "time_taken": "0.2061s"
+  },
+  {
+    "test": 49,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_reentrancy_0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888.sol_MONEY_BOX.json.hex.sol",
+    "analysis": {
+      "error": "Failed to analyze: Rate limit reached for gpt-4 in organization org-LfEzNewo4HZ2A7DS5JFhMA7R on tokens per min (TPM): Limit 10000, Used 9512, Requested 1187. Please try again in 4.194s. Visit https://platform.openai.com/account/rate-limits to learn more."
+    },
+    "time_taken": "0.2062s"
+  }
+]

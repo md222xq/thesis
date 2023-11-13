@@ -1,0 +1,1420 @@
+[
+  {
+    "test": 1,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_unchecked_low_level_calls_0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152.sol_airPort.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "Category": "unchecked_low_level_calls"
+    },
+    "time_taken": "1.7521s"
+  },
+  {
+    "test": 2,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_unchecked_low_level_calls_0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol_Owned.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "vulnerability": "unchecked_low_level_calls"
+    },
+    "time_taken": "2.0577s"
+  },
+  {
+    "test": 3,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_unchecked_low_level_calls_0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol_tokenRecipient.json.hex.sol",
+    "analysis": {
+      "Rating": "SAFE",
+      "Vulnerability_Category": "None"
+    },
+    "time_taken": "1.5045s"
+  },
+  {
+    "test": 4,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_time_manipulation_ether_lotto.sol_EtherLotto.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "vulnerability_category": "reentrancy"
+    },
+    "time_taken": "1.8876s"
+  },
+  {
+    "test": 5,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_unchecked_low_level_calls_0xb0510d68f210b7db66e8c7c814f22680f2b8d1d6.sol_Puppet.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "Vulnerabilities": [
+        "reentrancy"
+      ]
+    },
+    "time_taken": "1.6486s"
+  },
+  {
+    "test": 6,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_unchecked_low_level_calls_0x663e4229142a27f00bafb5d087e1e730648314c3.sol_ERC721.json.hex.sol",
+    "analysis": {
+      "Rating": "SAFE",
+      "Vulnerability_Category": "None"
+    },
+    "time_taken": "1.5313s"
+  },
+  {
+    "test": 7,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_access_control_incorrect_constructor_name3.sol_Missing.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "vulnerability_category": "reentrancy"
+    },
+    "time_taken": "1.7436s"
+  },
+  {
+    "test": 8,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_unchecked_low_level_calls_0x958a8f594101d2c0485a52319f29b2647f2ebc06.sol_Marriage.json.hex.sol",
+    "analysis": {
+      "error": "Failed to analyze: This model's maximum context length is 8192 tokens. However, your messages resulted in 8617 tokens. Please reduce the length of the messages."
+    },
+    "time_taken": "1.8241s"
+  },
+  {
+    "test": 9,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_unchecked_low_level_calls_0xb0510d68f210b7db66e8c7c814f22680f2b8d1d6.sol_Splitter.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "Category": "reentrancy"
+    },
+    "time_taken": "2.0929s"
+  },
+  {
+    "test": 10,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_reentrancy_0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol_LogFile.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "vulnerability_category": "arithmetic_integer_overflow"
+    },
+    "time_taken": "2.0088s"
+  },
+  {
+    "test": 11,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_unchecked_low_level_calls_0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4.sol_HomeyJar.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "vulnerability_category": "reentrancy"
+    },
+    "time_taken": "2.0896s"
+  },
+  {
+    "test": 12,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_reentrancy_modifier_reentrancy.sol_ModifierEntrancy.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "vulnerability_category": "unchecked_low_level_calls"
+    },
+    "time_taken": "1.6671s"
+  },
+  {
+    "test": 13,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_unchecked_low_level_calls_0xd5967fed03e85d1cce44cab284695b41bc675b5c.sol_demo.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "vulnerability_category": "unchecked_low_level_calls"
+    },
+    "time_taken": "2.4306s"
+  },
+  {
+    "test": 14,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_reentrancy_reentrancy_bonus.sol_Reentrancy_bonus.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "vulnerability_category": "Reentrancy"
+    },
+    "time_taken": "1.8113s"
+  },
+  {
+    "test": 15,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_reentrancy_0xb93430ce38ac4a6bb47fb1fc085ea669353fd89e.sol_Log.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "vulnerability_category": "other"
+    },
+    "time_taken": "1.8993s"
+  },
+  {
+    "test": 16,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_reentrancy_etherstore.sol_EtherStore.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "vulnerability category": "unchecked_low_level_calls"
+    },
+    "time_taken": "2.5160s"
+  },
+  {
+    "test": 17,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_unchecked_low_level_calls_0xbaa3de6504690efb064420d89e871c27065cdd52.sol_Proxy.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "Vulnerability category": "unchecked_low_level_calls"
+    },
+    "time_taken": "1.9021s"
+  },
+  {
+    "test": 18,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_reentrancy_spank_chain_payment.sol_ECTools.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "Category": "unchecked_low_level_calls"
+    },
+    "time_taken": "2.1376s"
+  },
+  {
+    "test": 19,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_reentrancy_0x4e73b32ed6c35f570686b89848e5f39f20ecc106.sol_PRIVATE_ETH_CELL.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "vulnerability_category": "reentrancy"
+    },
+    "time_taken": "1.7062s"
+  },
+  {
+    "test": 20,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_unchecked_low_level_calls_0x663e4229142a27f00bafb5d087e1e730648314c3.sol_SiringClockAuction.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "vulnerability_category": "unchecked_low_level_calls"
+    },
+    "time_taken": "2.0380s"
+  },
+  {
+    "test": 21,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_unchecked_low_level_calls_unchecked_return_value.sol_ReturnValue.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "vulnerability_category": "unchecked_low_level_calls"
+    },
+    "time_taken": "2.1148s"
+  },
+  {
+    "test": 22,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_unchecked_low_level_calls_0xd2018bfaa266a9ec0a1a84b061640faa009def76.sol_Pie.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "vulnerability_category": "Reentrancy"
+    },
+    "time_taken": "2.2326s"
+  },
+  {
+    "test": 23,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_reentrancy_0x7b368c4e805c3870b6c49a3f1f49f69af8662cf3.sol_W_WALLET.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "vulnerability_category": "reentrancy"
+    },
+    "time_taken": "1.7058s"
+  },
+  {
+    "test": 24,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_bad_randomness_blackjack.sol_BlackJack.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "Vulnerability_Category": "unchecked_low_level_calls"
+    },
+    "time_taken": "2.9084s"
+  },
+  {
+    "test": 25,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_front_running_FindThisHash.sol_FindThisHash.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "vulnerability_category": "unchecked_low_level_calls"
+    },
+    "time_taken": "2.8608s"
+  },
+  {
+    "test": 26,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_unchecked_low_level_calls_0x806a6bd219f162442d992bdc4ee6eba1f2c5a707.sol_Pie.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "Category": "reentrancy"
+    },
+    "time_taken": "1.6308s"
+  },
+  {
+    "test": 27,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_arithmetic_insecure_transfer.sol_IntegerOverflowAdd.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "Vulnerability": "unchecked_low_level_calls"
+    },
+    "time_taken": "1.6436s"
+  },
+  {
+    "test": 28,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_reentrancy_reentrancy_insecure.sol_Reentrancy_insecure.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "vulnerability_category": "Reentrancy"
+    },
+    "time_taken": "1.6762s"
+  },
+  {
+    "test": 29,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_unchecked_low_level_calls_0x3e013fc32a54c4c5b6991ba539dcd0ec4355c859.sol_MultiplicatorX4.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "Category": "Reentrancy"
+    },
+    "time_taken": "1.5239s"
+  },
+  {
+    "test": 30,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_access_control_parity_wallet_bug_2.sol_WalletEvents.json.hex.sol",
+    "analysis": {
+      "Rating": "SAFE",
+      "Vulnerability_Category": "NA"
+    },
+    "time_taken": "1.3697s"
+  },
+  {
+    "test": 31,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_reentrancy_reentrance.sol_Reentrance.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "vulnerability_category": "Reentrancy"
+    },
+    "time_taken": "1.5115s"
+  },
+  {
+    "test": 32,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_unchecked_low_level_calls_0x8fd1e427396ddb511533cf9abdbebd0a7e08da35.sol_TokenBank.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "vulnerability_category": "access_control"
+    },
+    "time_taken": "1.5566s"
+  },
+  {
+    "test": 33,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_reentrancy_0xbaf51e761510c1a11bf48dd87c0307ac8a8c8a4f.sol_Log.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "vulnerability_category": "unchecked_low_level_calls"
+    },
+    "time_taken": "1.2620s"
+  },
+  {
+    "test": 34,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_unchecked_low_level_calls_king_of_the_ether_throne.sol_KingOfTheEtherThrone.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "vulnerability": "unchecked_low_level_calls"
+    },
+    "time_taken": "1.7517s"
+  },
+  {
+    "test": 35,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_reentrancy_0x7541b76cb60f4c60af330c208b0623b7f54bf615.sol_U_BANK.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "vulnerability_category": "Reentrancy"
+    },
+    "time_taken": "2.6388s"
+  },
+  {
+    "test": 36,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_unchecked_low_level_calls_0xe09b1ab8111c2729a76f16de96bc86a7af837928.sol_FiftyFlip.json.hex.sol",
+    "analysis": {
+      "Rating": "SAFE",
+      "vulnerability": "None"
+    },
+    "time_taken": "1.9702s"
+  },
+  {
+    "test": 37,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_arithmetic_BECToken.sol_BecToken.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "vulnerability_category": "unchecked_low_level_calls"
+    },
+    "time_taken": "2.5627s"
+  },
+  {
+    "test": 38,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_reentrancy_spank_chain_payment.sol_Token.json.hex.sol",
+    "analysis": {
+      "Rating": "SAFE",
+      "Vulnerability": "None"
+    },
+    "time_taken": "0.9904s"
+  },
+  {
+    "test": 39,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_unchecked_low_level_calls_0x52d2e0f9b01101a59b38a3d05c80b7618aeed984.sol_EtherGet.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "vulnerability_category": "unchecked_low_level_calls"
+    },
+    "time_taken": "2.0369s"
+  },
+  {
+    "test": 40,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_arithmetic_integer_overflow_add.sol_IntegerOverflowAdd.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "vulnerability_category": "arithmetic_integer_overflow"
+    },
+    "time_taken": "1.6453s"
+  },
+  {
+    "test": 41,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_unchecked_low_level_calls_0xdb1c55f6926e7d847ddf8678905ad871a68199d2.sol_FreeEth.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "Vulnerability_Category": "reentrancy"
+    },
+    "time_taken": "1.6014s"
+  },
+  {
+    "test": 42,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_access_control_wallet_03_wrong_constructor.sol_Wallet.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "vulnerability_category": "Reentrancy"
+    },
+    "time_taken": "1.6346s"
+  },
+  {
+    "test": 43,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_reentrancy_0x7a8721a9d64c74da899424c1b52acbf58ddc9782.sol_Log.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "vulnerability_category": "unchecked_low_level_calls"
+    },
+    "time_taken": "1.7047s"
+  },
+  {
+    "test": 44,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_reentrancy_0x627fa62ccbb1c1b04ffaecd72a53e37fc0e17839.sol_Token.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "Vulnerability_Category": "unchecked_low_level_calls"
+    },
+    "time_taken": "2.1293s"
+  },
+  {
+    "test": 45,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_reentrancy_0x627fa62ccbb1c1b04ffaecd72a53e37fc0e17839.sol_TokenBank.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "vulnerability_category": "unchecked_low_level_calls"
+    },
+    "time_taken": "1.7688s"
+  },
+  {
+    "test": 46,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_reentrancy_0x8c7777c45481dba411450c228cb692ac3d550344.sol_ETH_VAULT.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "Vulnerability category": "Reentrancy"
+    },
+    "time_taken": "2.0306s"
+  },
+  {
+    "test": 47,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_unchecked_low_level_calls_0x663e4229142a27f00bafb5d087e1e730648314c3.sol_SaleClockAuction.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "vulnerability_category": "unchecked_low_level_calls"
+    },
+    "time_taken": "2.5948s"
+  },
+  {
+    "test": 48,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_denial_of_service_list_dos.sol_Government.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "vulnerability_category": "reentrancy"
+    },
+    "time_taken": "2.0251s"
+  },
+  {
+    "test": 49,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_reentrancy_0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888.sol_MONEY_BOX.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "vulnerability_category": "Reentrancy"
+    },
+    "time_taken": "2.2253s"
+  },
+  {
+    "test": 50,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_unchecked_low_level_calls_0x52d2e0f9b01101a59b38a3d05c80b7618aeed984.sol_Token.json.hex.sol",
+    "analysis": {
+      "Rating": "SAFE",
+      "Vulnerability_Category": "None"
+    },
+    "time_taken": "1.5152s"
+  },
+  {
+    "test": 51,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_unchecked_low_level_calls_0x3a0e9acd953ffc0dd18d63603488846a6b8b2b01.sol_TokenBank.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "vulnerability": "unchecked_low_level_calls"
+    },
+    "time_taken": "1.7279s"
+  },
+  {
+    "test": 52,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_bad_randomness_lottery.sol_Lottery.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "vulnerability category": "reentrancy"
+    },
+    "time_taken": "1.8672s"
+  },
+  {
+    "test": 53,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_unchecked_low_level_calls_0x39cfd754c85023648bf003bea2dd498c5612abfa.sol_Token.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "vulnerability category": "access_control"
+    },
+    "time_taken": "1.5135s"
+  },
+  {
+    "test": 54,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_access_control_unprotected0.sol_Unprotected.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "Vulnerability Category": "access_control"
+    },
+    "time_taken": "1.5293s"
+  },
+  {
+    "test": 55,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_reentrancy_0x93c32845fae42c83a70e5f06214c8433665c2ab5.sol_Log.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "vulnerability_category": "unchecked_low_level_calls"
+    },
+    "time_taken": "1.6206s"
+  },
+  {
+    "test": 56,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_denial_of_service_dos_address.sol_DosGas.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "vulnerability_category": "other"
+    },
+    "time_taken": "2.1097s"
+  },
+  {
+    "test": 57,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_unchecked_low_level_calls_0x627fa62ccbb1c1b04ffaecd72a53e37fc0e17839.sol_Ownable.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "Vulnerability_Category": "access_control"
+    },
+    "time_taken": "1.2950s"
+  },
+  {
+    "test": 58,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_denial_of_service_dos_simple.sol_DosOneFunc.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "vulnerability_category": "other"
+    },
+    "time_taken": "1.5164s"
+  },
+  {
+    "test": 59,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_access_control_multiowned_vulnerable.sol_MultiOwnable.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "vulnerability category": "access_control"
+    },
+    "time_taken": "1.7433s"
+  },
+  {
+    "test": 60,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_reentrancy_0x561eac93c92360949ab1f1403323e6db345cbf31.sol_BANK_SAFE.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "vulnerability_category": "Reentrancy"
+    },
+    "time_taken": "1.5028s"
+  },
+  {
+    "test": 61,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_bad_randomness_lucky_doubler.sol_LuckyDoubler.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "vulnerability": "access_control"
+    },
+    "time_taken": "1.6005s"
+  },
+  {
+    "test": 62,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_unchecked_low_level_calls_0x5aa88d2901c68fda244f1d0584400368d2c8e739.sol_MultiplicatorX3.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "vulnerability_category": "reentrancy"
+    },
+    "time_taken": "1.6076s"
+  },
+  {
+    "test": 63,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_bad_randomness_guess_the_random_number.sol_GuessTheRandomNumberChallenge.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "vulnerability_category": "Reentrancy"
+    },
+    "time_taken": "1.6421s"
+  },
+  {
+    "test": 64,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_reentrancy_spank_chain_payment.sol_HumanStandardToken.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "Category": "reentrancy"
+    },
+    "time_taken": "1.5213s"
+  },
+  {
+    "test": 65,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_unchecked_low_level_calls_0xec329ffc97d75fe03428ae155fc7793431487f63.sol_Token.json.hex.sol",
+    "analysis": {
+      "Rating": "SAFE",
+      "vulnerability_category": "N/A"
+    },
+    "time_taken": "1.1481s"
+  },
+  {
+    "test": 66,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_bad_randomness_random_number_generator.sol_RandomNumberGenerator.json.hex.sol",
+    "analysis": {
+      "Rating": "SAFE",
+      "Vulnerability_Category": "None"
+    },
+    "time_taken": "1.5491s"
+  },
+  {
+    "test": 67,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_access_control_proxy.sol_Proxy.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "Category": "unchecked_low_level_calls"
+    },
+    "time_taken": "1.3495s"
+  },
+  {
+    "test": 68,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_arithmetic_BECToken.sol_PausableToken.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "vulnerability_category": "unchecked_low_level_calls"
+    },
+    "time_taken": "2.0089s"
+  },
+  {
+    "test": 69,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_unchecked_low_level_calls_0x39cfd754c85023648bf003bea2dd498c5612abfa.sol_TokenBank.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "vulnerability_category": "unchecked_low_level_calls"
+    },
+    "time_taken": "1.7717s"
+  },
+  {
+    "test": 70,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_time_manipulation_lottopollo.sol_lottopollo.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "Category": "reentrancy"
+    },
+    "time_taken": "1.5718s"
+  },
+  {
+    "test": 71,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_other_crypto_roulette.sol_CryptoRoulette.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "Vulnerability_Category": "reentrancy"
+    },
+    "time_taken": "1.5395s"
+  },
+  {
+    "test": 72,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_arithmetic_integer_overflow_minimal.sol_IntegerOverflowMinimal.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "Category": "arithmetic_integer_overflow"
+    },
+    "time_taken": "1.4105s"
+  },
+  {
+    "test": 73,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_arithmetic_BECToken.sol_ERC20.json.hex.sol",
+    "analysis": {
+      "Rating": "SAFE",
+      "Vulnerability_Category": "null"
+    },
+    "time_taken": "2.4339s"
+  },
+  {
+    "test": 74,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_unchecked_low_level_calls_0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol_Proxy.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "Vulnerability Category": "access_control"
+    },
+    "time_taken": "1.4538s"
+  },
+  {
+    "test": 75,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_access_control_rubixi.sol_Rubixi.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "Category": "unchecked_low_level_calls"
+    },
+    "time_taken": "1.9888s"
+  },
+  {
+    "test": 76,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_unchecked_low_level_calls_0xe4eabdca81e31d9acbc4af76b30f532b6ed7f3bf.sol_Honey.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "Vulnerability Category": "Reentrancy"
+    },
+    "time_taken": "1.6946s"
+  },
+  {
+    "test": 77,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_unchecked_low_level_calls_0xa46edd6a9a93feec36576ee5048146870ea2c3ae.sol_EBU.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "vulnerability_category": "unchecked_low_level_calls"
+    },
+    "time_taken": "1.3647s"
+  },
+  {
+    "test": 78,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_unchecked_low_level_calls_0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9.sol_Caller.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "vulnerability_category": "unchecked_low_level_calls"
+    },
+    "time_taken": "2.0195s"
+  },
+  {
+    "test": 79,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_unchecked_low_level_calls_0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol_ERC20.json.hex.sol",
+    "analysis": {
+      "Rating": "SAFE",
+      "vulnerability_category": "No Vulnerability"
+    },
+    "time_taken": "1.3397s"
+  },
+  {
+    "test": 80,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_arithmetic_token.sol_Token.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "vulnerability_category": "arithmetic_integer_overflow"
+    },
+    "time_taken": "1.6990s"
+  },
+  {
+    "test": 81,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_reentrancy_0xcead721ef5b11f1a7b530171aab69b16c5e66b6e.sol_WALLET.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "vulnerability_category": "Reentrancy"
+    },
+    "time_taken": "2.0460s"
+  },
+  {
+    "test": 82,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_unchecked_low_level_calls_0x663e4229142a27f00bafb5d087e1e730648314c3.sol_PandaBase.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "vulnerability": "access_control"
+    },
+    "time_taken": "2.1211s"
+  },
+  {
+    "test": 83,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_denial_of_service_auction.sol_DosAuction.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "Vulnerability_Category": "unchecked_low_level_calls"
+    },
+    "time_taken": "1.7069s"
+  },
+  {
+    "test": 84,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_unchecked_low_level_calls_0x2972d548497286d18e92b5fa1f8f9139e5653fd2.sol_demo.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "vulnerability_category": "unchecked_low_level_calls"
+    },
+    "time_taken": "1.4424s"
+  },
+  {
+    "test": 85,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_arithmetic_integer_overflow_mapping_sym_1.sol_IntegerOverflowMappingSym1.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "vulnerability_category": "arithmetic_integer_overflow"
+    },
+    "time_taken": "1.3190s"
+  },
+  {
+    "test": 86,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_bad_randomness_blackjack.sol_Deck.json.hex.sol",
+    "analysis": {
+      "Rating": "SAFE",
+      "vulnerability_category": "none"
+    },
+    "time_taken": "1.5091s"
+  },
+  {
+    "test": 87,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_unchecked_low_level_calls_0x627fa62ccbb1c1b04ffaecd72a53e37fc0e17839.sol_TokenBank.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "vulnerability_category": "reentrancy"
+    },
+    "time_taken": "1.7108s"
+  },
+  {
+    "test": 88,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_reentrancy_0x7a8721a9d64c74da899424c1b52acbf58ddc9782.sol_PrivateDeposit.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "Vulnerability_Category": "Reentrancy"
+    },
+    "time_taken": "2.3685s"
+  },
+  {
+    "test": 89,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_denial_of_service_dos_number.sol_DosNumber.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "vulnerability category": "arithmetic_integer_overflow"
+    },
+    "time_taken": "2.5719s"
+  },
+  {
+    "test": 90,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_reentrancy_0x93c32845fae42c83a70e5f06214c8433665c2ab5.sol_X_WALLET.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "vulnerability_category": "reentrancy"
+    },
+    "time_taken": "2.0360s"
+  },
+  {
+    "test": 91,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_access_control_incorrect_constructor_name2.sol_Missing.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "VulnerabilityCategory": "unchecked_low_level_calls"
+    },
+    "time_taken": "1.8142s"
+  },
+  {
+    "test": 92,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_access_control_parity_wallet_bug_2.sol_WalletLibrary.json.hex.sol",
+    "analysis": {
+      "error": "Failed to analyze: Request too large for gpt-4 in organization org-LfEzNewo4HZ2A7DS5JFhMA7R on tokens per min (TPM): Limit 10000, Requested 18291. The input or output tokens must be reduced in order to run successfully. Visit https://platform.openai.com/account/rate-limits to learn more."
+    },
+    "time_taken": "0.5992s"
+  },
+  {
+    "test": 93,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_unchecked_low_level_calls_0x663e4229142a27f00bafb5d087e1e730648314c3.sol_ERC20.json.hex.sol",
+    "analysis": {
+      "Rating": "SAFE",
+      "Vulnerability_Category": "None"
+    },
+    "time_taken": "1.3676s"
+  },
+  {
+    "test": 94,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_short_addresses_short_address_example.sol_MyToken.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "Vulnerability": "access_control"
+    },
+    "time_taken": "1.4255s"
+  },
+  {
+    "test": 95,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_reentrancy_0x627fa62ccbb1c1b04ffaecd72a53e37fc0e17839.sol_Ownable.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "Category": "access_control"
+    },
+    "time_taken": "1.3251s"
+  },
+  {
+    "test": 96,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_reentrancy_reentrancy_cross_function.sol_Reentrancy_cross_function.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "vulnerability_category": "Reentrancy"
+    },
+    "time_taken": "1.5971s"
+  },
+  {
+    "test": 97,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_unchecked_low_level_calls_0xec329ffc97d75fe03428ae155fc7793431487f63.sol_TokenSender.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "vulnerability_category": "access_control"
+    },
+    "time_taken": "1.5662s"
+  },
+  {
+    "test": 98,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_reentrancy_modifier_reentrancy.sol_attack.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "Vulnerability_Category": "Reentrancy"
+    },
+    "time_taken": "1.9097s"
+  },
+  {
+    "test": 99,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_unchecked_low_level_calls_0x663e4229142a27f00bafb5d087e1e730648314c3.sol_PandaAccessControl.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "category": "access_control"
+    },
+    "time_taken": "1.5196s"
+  },
+  {
+    "test": 100,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_arithmetic_BECToken.sol_ERC20Basic.json.hex.sol",
+    "analysis": {
+      "Rating": "SAFE",
+      "vulnerability_category": "None"
+    },
+    "time_taken": "1.5122s"
+  },
+  {
+    "test": 101,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_unchecked_low_level_calls_0xf2570186500a46986f3139f65afedc2afe4f445d.sol_RealOldFuckMaker.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "Vulnerability_Category": "unchecked_low_level_calls"
+    },
+    "time_taken": "2.0464s"
+  },
+  {
+    "test": 102,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_unchecked_low_level_calls_0x663e4229142a27f00bafb5d087e1e730648314c3.sol_GeneScienceInterface.json.hex.sol",
+    "analysis": {
+      "Rating": "SAFE",
+      "Vulnerability_Category": "None"
+    },
+    "time_taken": "2.2547s"
+  },
+  {
+    "test": 103,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_unchecked_low_level_calls_0x07f7ecb66d788ab01dc93b9b71a88401de7d0f2e.sol_PoCGame.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "vulnerability": "reentrancy"
+    },
+    "time_taken": "2.0009s"
+  },
+  {
+    "test": 104,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_reentrancy_0xaae1f51cf3339f18b6d3f3bdc75a5facd744b0b8.sol_DEP_BANK.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "vulnerability_category": "reentrancy"
+    },
+    "time_taken": "1.6160s"
+  },
+  {
+    "test": 105,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_bad_randomness_smart_billions.sol_ERC20.json.hex.sol",
+    "analysis": {
+      "Rating": "SAFE",
+      "Vulnerability": "None"
+    },
+    "time_taken": "1.3217s"
+  },
+  {
+    "test": 106,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_bad_randomness_etheraffle.sol_Ethraffle_v4b.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "vulnerability": "unchecked_low_level_calls"
+    },
+    "time_taken": "2.4814s"
+  },
+  {
+    "test": 107,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_unchecked_low_level_calls_lotto.sol_Lotto.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "vulnerability_category": "Reentrancy"
+    },
+    "time_taken": "1.6812s"
+  },
+  {
+    "test": 108,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_arithmetic_BECToken.sol_SafeMath.json.hex.sol",
+    "analysis": {
+      "Rating": "SAFE",
+      "Vulnerability_category": "NA"
+    },
+    "time_taken": "1.3203s"
+  },
+  {
+    "test": 109,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_bad_randomness_smart_billions.sol_ERC20Basic.json.hex.sol",
+    "analysis": {
+      "Rating": "SAFE",
+      "Vulnerability": "N/A"
+    },
+    "time_taken": "1.3465s"
+  },
+  {
+    "test": 110,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_reentrancy_0xaae1f51cf3339f18b6d3f3bdc75a5facd744b0b8.sol_LogFile.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "vulnerability_category": "arithmetic_integer_overflow"
+    },
+    "time_taken": "1.8513s"
+  },
+  {
+    "test": 111,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_unchecked_low_level_calls_0x663e4229142a27f00bafb5d087e1e730648314c3.sol_ClockAuctionBase.json.hex.sol",
+    "analysis": {
+      "Rating": "SAFE",
+      "vulnerability_category": "none"
+    },
+    "time_taken": "1.3433s"
+  },
+  {
+    "test": 112,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_unchecked_low_level_calls_0xb37f18af15bafb869a065b61fc83cfc44ed9cc27.sol_SimpleWallet.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "vulnerability_category": "unchecked_low_level_calls"
+    },
+    "time_taken": "1.6183s"
+  },
+  {
+    "test": 113,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_reentrancy_0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888.sol_Log.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "Category": "other"
+    },
+    "time_taken": "1.7894s"
+  },
+  {
+    "test": 114,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_unchecked_low_level_calls_0x663e4229142a27f00bafb5d087e1e730648314c3.sol_ClockAuction.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "vulnerability": "reentrancy"
+    },
+    "time_taken": "1.9862s"
+  },
+  {
+    "test": 115,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_unchecked_low_level_calls_0x8fd1e427396ddb511533cf9abdbebd0a7e08da35.sol_Ownable.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "vulnerability_category": "access_control"
+    },
+    "time_taken": "1.7094s"
+  },
+  {
+    "test": 116,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_reentrancy_0x7b368c4e805c3870b6c49a3f1f49f69af8662cf3.sol_Log.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "Category": "other"
+    },
+    "time_taken": "1.5817s"
+  },
+  {
+    "test": 117,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_time_manipulation_governmental_survey.sol_Governmental.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "vulnerability_category": "Reentrancy"
+    },
+    "time_taken": "1.9707s"
+  },
+  {
+    "test": 118,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_unchecked_low_level_calls_0x663e4229142a27f00bafb5d087e1e730648314c3.sol_PandaOwnership.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "vulnerability_category": "access_control"
+    },
+    "time_taken": "2.5691s"
+  },
+  {
+    "test": 119,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_unchecked_low_level_calls_0xb620cee6b52f96f3c6b253e6eea556aa2d214a99.sol_DrainMe.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "Category": "Reentrancy"
+    },
+    "time_taken": "1.7064s"
+  },
+  {
+    "test": 120,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_unchecked_low_level_calls_0xb0510d68f210b7db66e8c7c814f22680f2b8d1d6.sol_SafeMath.json.hex.sol",
+    "analysis": {
+      "Rating": "SAFE",
+      "vulnerability_category": "none"
+    },
+    "time_taken": "1.1327s"
+  },
+  {
+    "test": 121,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_access_control_mycontract.sol_MyContract.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "Vulnerability_Category": "Reentrancy"
+    },
+    "time_taken": "1.7693s"
+  },
+  {
+    "test": 122,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_access_control_simple_suicide.sol_SimpleSuicide.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "vulnerability category": "access_control"
+    },
+    "time_taken": "1.1882s"
+  },
+  {
+    "test": 123,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_unchecked_low_level_calls_0x07f7ecb66d788ab01dc93b9b71a88401de7d0f2e.sol_ERC20Interface.json.hex.sol",
+    "analysis": {
+      "Rating": "SAFE",
+      "vulnerability_category": "N/A"
+    },
+    "time_taken": "1.4305s"
+  },
+  {
+    "test": 124,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_unchecked_low_level_calls_0x627fa62ccbb1c1b04ffaecd72a53e37fc0e17839.sol_Token.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "Vulnerability_Category": "unchecked_low_level_calls"
+    },
+    "time_taken": "1.5109s"
+  },
+  {
+    "test": 125,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_reentrancy_0xbaf51e761510c1a11bf48dd87c0307ac8a8c8a4f.sol_ETH_VAULT.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "vulnerability_category": "unchecked_low_level_calls"
+    },
+    "time_taken": "1.6839s"
+  },
+  {
+    "test": 126,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_unchecked_low_level_calls_0x524960d55174d912768678d8c606b4d50b79d7b1.sol_Centra4.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "vulnerability_category": "unchecked_low_level_calls"
+    },
+    "time_taken": "1.6952s"
+  },
+  {
+    "test": 127,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_reentrancy_0x8c7777c45481dba411450c228cb692ac3d550344.sol_Log.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "vulnerability_category": "other"
+    },
+    "time_taken": "1.5087s"
+  },
+  {
+    "test": 128,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_reentrancy_0x561eac93c92360949ab1f1403323e6db345cbf31.sol_LogFile.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "vulnerability_category": "other"
+    },
+    "time_taken": "1.1759s"
+  },
+  {
+    "test": 129,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_arithmetic_overflow_simple_add.sol_Overflow_Add.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "vulnerability_category": "arithmetic_integer_overflow"
+    },
+    "time_taken": "2.9516s"
+  },
+  {
+    "test": 130,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_denial_of_service_send_loop.sol_Refunder.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "vulnerability_category": "unchecked_low_level_calls"
+    },
+    "time_taken": "1.9907s"
+  },
+  {
+    "test": 131,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_access_control_wallet_04_confused_sign.sol_Wallet.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "Vulnerability_Category": "Reentrancy"
+    },
+    "time_taken": "2.5592s"
+  },
+  {
+    "test": 132,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_reentrancy_0x23a91059fdc9579a9fbd0edc5f2ea0bfdb70deb4.sol_Log.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "vulnerability_category": "other"
+    },
+    "time_taken": "1.5150s"
+  },
+  {
+    "test": 133,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_unchecked_low_level_calls_etherpot_lotto.sol_Lotto.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "vulnerability_category": "unchecked_low_level_calls"
+    },
+    "time_taken": "2.2800s"
+  },
+  {
+    "test": 134,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_time_manipulation_governmental_survey.sol_Attacker.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "Vulnerability": "Reentrancy"
+    },
+    "time_taken": "1.8461s"
+  },
+  {
+    "test": 135,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_unchecked_low_level_calls_0x663e4229142a27f00bafb5d087e1e730648314c3.sol_Ownable.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "Vulnerability Category": "access_control"
+    },
+    "time_taken": "1.6681s"
+  },
+  {
+    "test": 136,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_reentrancy_modifier_reentrancy.sol_Bank.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "vulnerability_category": "other"
+    },
+    "time_taken": "1.8427s"
+  },
+  {
+    "test": 137,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_front_running_ERC20.sol_ERC20.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "vulnerability": "arithmetic_integer_overflow"
+    },
+    "time_taken": "1.8190s"
+  },
+  {
+    "test": 138,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_unchecked_low_level_calls_mishandled.sol_SendBack.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "vulnerability_category": "Reentrancy"
+    },
+    "time_taken": "1.7239s"
+  },
+  {
+    "test": 139,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_arithmetic_integer_overflow_1.sol_Overflow.json.hex.sol",
+    "analysis": {
+      "Rating": "SAFE",
+      "Vulnerability": "None"
+    },
+    "time_taken": "1.2561s"
+  },
+  {
+    "test": 140,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_other_name_registrar.sol_NameRegistrar.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "vulnerability_category": "access_control"
+    },
+    "time_taken": "1.7614s"
+  },
+  {
+    "test": 141,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_bad_randomness_smart_billions.sol_SmartBillions.json.hex.sol",
+    "analysis": {
+      "error": "Failed to analyze: Request too large for gpt-4 in organization org-LfEzNewo4HZ2A7DS5JFhMA7R on tokens per min (TPM): Limit 10000, Requested 39393. The input or output tokens must be reduced in order to run successfully. Visit https://platform.openai.com/account/rate-limits to learn more."
+    },
+    "time_taken": "0.8281s"
+  },
+  {
+    "test": 142,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_arithmetic_overflow_single_tx.sol_IntegerOverflowSingleTransaction.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "vulnerability": "arithmetic_integer_overflow"
+    },
+    "time_taken": "1.6798s"
+  },
+  {
+    "test": 143,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_bad_randomness_old_blockhash.sol_PredictTheBlockHashChallenge.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "Vulnerability": "Reentrancy"
+    },
+    "time_taken": "2.0369s"
+  },
+  {
+    "test": 144,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_unchecked_low_level_calls_0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol_WedIndex.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "vulnerability": "unchecked_low_level_calls"
+    },
+    "time_taken": "2.2267s"
+  },
+  {
+    "test": 145,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_unchecked_low_level_calls_0x3a0e9acd953ffc0dd18d63603488846a6b8b2b01.sol_Token.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "vulnerability_category": "access_control"
+    },
+    "time_taken": "1.6456s"
+  },
+  {
+    "test": 146,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_unchecked_low_level_calls_0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol_StandardToken.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "vulnerability_category": "arithmetic_integer_overflow"
+    },
+    "time_taken": "1.9599s"
+  },
+  {
+    "test": 147,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_reentrancy_reentrancy_dao.sol_ReentrancyDAO.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "Vulnerability_Category": "Reentrancy"
+    },
+    "time_taken": "1.5675s"
+  },
+  {
+    "test": 148,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_reentrancy_0xf015c35649c82f5467c9c74b7f28ee67665aad68.sol_MY_BANK.json.hex.sol",
+    "analysis": {
+      "raw_response": "The smart contract seems to have a potential reentrancy vulnerability. In the `Collect` and `Put` function, a state change occurs ('stor_map_b[var_a] = (stor_map_b[var_a]) - arg0;' or 'stor_map_b[var_a] = (stor_map_b[var_a]) + msg.value;') after an external call ('address(msg.sender).call{ value: arg0 }(abi.encode());' or 'address(stor_c).call{ value: "
+    },
+    "time_taken": "6.1236s"
+  },
+  {
+    "test": 149,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_unchecked_low_level_calls_0x9d06cbafa865037a01d322d3f4222fa3e04e5488.sol_Delta.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "vulnerability_category": "reentrancy"
+    },
+    "time_taken": "2.0417s"
+  },
+  {
+    "test": 150,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_arithmetic_BECToken.sol_StandardToken.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "vulnerability_category": "arithmetic_integer_overflow"
+    },
+    "time_taken": "1.8598s"
+  },
+  {
+    "test": 151,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_reentrancy_0x01f8c4e3fa3edeb29e514cba738d87ce8c091d3f.sol_PERSONAL_BANK.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "Category": "reentrancy"
+    },
+    "time_taken": "1.5921s"
+  },
+  {
+    "test": 152,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_access_control_multiowned_vulnerable.sol_TestContract.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "Category": "Reentrancy"
+    },
+    "time_taken": "1.4506s"
+  },
+  {
+    "test": 153,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_unchecked_low_level_calls_0xec329ffc97d75fe03428ae155fc7793431487f63.sol_Owned.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "Vulnerability_Category": "access_control"
+    },
+    "time_taken": "2.1407s"
+  },
+  {
+    "test": 154,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_arithmetic_BECToken.sol_Ownable.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "vulnerability_category": "access_control"
+    },
+    "time_taken": "1.4711s"
+  },
+  {
+    "test": 155,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_reentrancy_0x4320e6f8c05b27ab4707cd1f6d5ce6f3e4b3a5a1.sol_LogFile.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "Category": "other"
+    },
+    "time_taken": "1.4523s"
+  },
+  {
+    "test": 156,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_unchecked_low_level_calls_0x7a4349a749e59a5736efb7826ee3496a2dfd5489.sol_WhaleGiveaway1.json.hex.sol",
+    "analysis": {
+      "Rating": "VULNERABLE",
+      "vulnerability_category": "unchecked_low_level_calls"
+    },
+    "time_taken": "1.9461s"
+  },
+  {
+    "test": 157,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_unchecked_low_level_calls_0xf70d589d76eebdd7c12cc5eec99f8f6fa4233b9e.sol_WhaleGiveaway2.json.hex.sol",
+    "analysis": {
+      "error": "Failed to analyze: You exceeded your current quota, please check your plan and billing details."
+    },
+    "time_taken": "0.2469s"
+  },
+  {
+    "test": 158,
+    "file_path": "./Contracts/Decompiled/Heimdall-rs/SmartBugs/Heimdall_time_manipulation_roulette.sol_Roulette.json.hex.sol",
+    "analysis": {
+      "error": "Failed to analyze: You exceeded your current quota, please check your plan and billing details."
+    },
+    "time_taken": "0.2753s"
+  }
+]

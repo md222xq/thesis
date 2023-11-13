@@ -1,0 +1,18 @@
+[
+  {
+    "test": 1,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_reentrancy_0x941d225236464a25eb18076df7da6a91d0f95e9e.sol_Log.json.sol",
+    "analysis": {
+      "raw_response": ""
+    },
+    "time_taken": "0.5556s"
+  },
+  {
+    "test": 2,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0xb0510d68f210b7db66e8c7c814f22680f2b8d1d6.sol_Puppet.json.sol",
+    "analysis": {
+      "raw_response": ""
+    },
+    "time_taken": "0.7267s"
+  }
+]

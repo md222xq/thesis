@@ -1,0 +1,138 @@
+[
+  {
+    "test": 1,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_reentrancy_0x941d225236464a25eb18076df7da6a91d0f95e9e.sol_Log.json.sol",
+    "analysis": {
+      "raw_response": "  The code you provided is a decompiled Solidity smart contract. It contains several functions, including the constructor function, which initializes the storage variables, and two external functions: `AddMessage` and `History`.\n\nHere's a brief overview of what each function does:\n\n* Constructor function: Initializes the `_history` array with zero-valued elements.\n* `AddMessage` function:\n\t+ Accepts three parameters: `v"
+    },
+    "time_taken": "104.0332s"
+  },
+  {
+    "test": 2,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0xb0510d68f210b7db66e8c7c814f22680f2b8d1d6.sol_Puppet.json.sol",
+    "analysis": {
+      "raw_response": "  This is a smart contract written in Solidity, a programming language used for writing smart contracts on the Ethereum blockchain. It appears to be a simple contract that allows for the transfer of funds between two addresses, with one address designated as the \"master\" and the other as the \"target\". The contract also includes a function called \"withdraw\" which allows the master to withdraw all the funds from the target address.\n\nThere are a few potential vulnerabilities in this"
+    },
+    "time_taken": "9.1284s"
+  },
+  {
+    "test": 3,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0x52d2e0f9b01101a59b38a3d05c80b7618aeed984.sol_EtherGet.json.sol",
+    "analysis": {
+      "raw_response": "  Rating: VULNERABLE\nVulnerability Type: unchecked_low_level_calls"
+    },
+    "time_taken": "4.5513s"
+  },
+  {
+    "test": 4,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_reentrancy_0x627fa62ccbb1c1b04ffaecd72a53e37fc0e17839.sol_TokenBank.json.sol",
+    "analysis": {
+      "raw_response": "  The provided code is a decompiled Solidity smart contract. It appears to be a simple wallet that allows users to deposit and withdraw tokens, as well as change the owner of the contract. However, there are several potential vulnerabilities in the code:\n\n1. Reentrancy: The `WitdrawTokenToHolder` function is vulnerable to reentrancy attacks, as it calls the `transfer` function on a user-supplied address"
+    },
+    "time_taken": "10.7224s"
+  },
+  {
+    "test": 5,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_access_control_unprotected0.sol_Unprotected.json.sol",
+    "analysis": {
+      "raw_response": "  Rating: VULNERABLE\nVulnerability Type: Reentrancy\n\nThe smart contract is vulnerable to reentrancy attacks. The `changeOwner` function allows anyone to change the value of the `_changeOwner` variable, which could cause unintended behavior or exploits in the contract. Additionally, the use of low-level calls such as `address()` and `msg.data.length` could potentially lead to security issues if not used correctly"
+    },
+    "time_taken": "8.1138s"
+  },
+  {
+    "test": 6,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_reentrancy_0x7541b76cb60f4c60af330c208b0623b7f54bf615.sol_Log.json.sol",
+    "analysis": {
+      "raw_response": "  \n[PYTHON]\ndef analyze_smart_contract():\n    # Analyze the smart contract and return a dictionary with the results\n    return {\"Rating\": \"SAFE\", \"Vulnerability Type\": \"\"}\n[/PYTHON]\n"
+    },
+    "time_taken": "14.1553s"
+  },
+  {
+    "test": 7,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_arithmetic_BECToken.sol_Pausable.json.sol",
+    "analysis": {
+      "raw_response": "  This is a Solidity smart contract written in the Solidity language version 0.4.7 or earlier. It contains six functions: `transferOwnership`, `__function_selector__`, `()`, `unpause`, `paused`, and `pause`.\n\nThe function `transferOwnership` allows a user to transfer ownership of the contract to another address. The function checks that the sender is the current owner and that the new owner is"
+    },
+    "time_taken": "9.7850s"
+  },
+  {
+    "test": 8,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_reentrancy_0xf015c35649c82f5467c9c74b7f28ee67665aad68.sol_Log.json.sol",
+    "analysis": {
+      "raw_response": "  The smart contract provided is vulnerable to reentrancy attacks. Here's why:\n\n1. The `AddMessage` function takes an address, a uint256, and a string as arguments. The string is stored in the `_history` array, but it's not clear what the purpose of the other two arguments are.\n2. The `History` function takes a single uint256 argument and returns an address, a string, a uint2"
+    },
+    "time_taken": "19.7124s"
+  },
+  {
+    "test": 9,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol_Proxy.json.sol",
+    "analysis": {
+      "raw_response": "  Rating: VULNERABLE\nVulnerability Type: Reentrancy"
+    },
+    "time_taken": "3.2603s"
+  },
+  {
+    "test": 10,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_access_control_parity_wallet_bug_2.sol_WalletLibrary.json.sol",
+    "analysis": {
+      "raw_response": ""
+    },
+    "time_taken": "0.9961s"
+  },
+  {
+    "test": 11,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0x39cfd754c85023648bf003bea2dd498c5612abfa.sol_TokenBank.json.sol",
+    "analysis": {
+      "raw_response": "  The smart contract you provided is vulnerable to the following security issues:\n\n1. Unchecked Low-Level Calls: The contract uses the `transfer` function in several places, which can lead to unchecked low-level calls. These calls can be exploited by malicious actors to cause unexpected behavior or even execute arbitrary code on the blockchain.\n2. Reentrancy: The contract has a reentrancy vulnerability in the `WithdrawTokenTo"
+    },
+    "time_taken": "11.0592s"
+  },
+  {
+    "test": 12,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0x0cbe050f75bc8f8c2d6c0d249fea125fd6e1acc9.sol_Caller.json.sol",
+    "analysis": {
+      "raw_response": "  Rating: VULNERABLE\nVulnerability Type: reentrancy\n\nExplanation:\nThis smart contract is vulnerable to reentrancy attacks. The `callAddress` function calls an external contract without checking the return value, which can lead to unintended behavior if the called contract modifies its state in a way that triggers a recursive call to `callAddress`. Additionally, the contract uses the `gas(msg.gas)` modifier,"
+    },
+    "time_taken": "8.7191s"
+  },
+  {
+    "test": 13,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0xb7c5c5aa4d42967efe906e1b66cb8df9cebf04f7.sol_keepMyEther.json.sol",
+    "analysis": {
+      "raw_response": "  Rating: VULNERABLE\nVulnerability Type: reentrancy\n\nThe given smart contract has a reentrancy vulnerability in the `withdraw` function. The contract allows users to call the `withdraw` function multiple times, which can lead to unintended behavior and potential attacks. In particular, if an attacker were able to repeatedly call the `withdraw` function before the original call had a chance to complete, they could potentially d"
+    },
+    "time_taken": "8.2546s"
+  },
+  {
+    "test": 14,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0xf70d589d76eebdd7c12cc5eec99f8f6fa4233b9e.sol_WhaleGiveaway2.json.sol",
+    "analysis": {
+      "raw_response": "  The smart contract contains the following vulnerabilities:\n\n1. Reentrancy: The `withdraw` function can be called multiple times by the owner, which could lead to unintended behavior and attacks such as flash loans or reentrancy attacks.\n2. Unchecked low-level calls: The smart contract uses low-level calls, which can cause unexpected behavior if the called contract does not handle errors correctly.\n3. Arithmetic integer overflow: The `"
+    },
+    "time_taken": "9.9645s"
+  },
+  {
+    "test": 15,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_reentrancy_0x561eac93c92360949ab1f1403323e6db345cbf31.sol_BANK_SAFE.json.sol",
+    "analysis": {
+      "raw_response": "  Rating: VULNERABLE\nVulnerability Type: Reentrancy\n\nThe smart contract is vulnerable to reentrancy attacks due to the use of a public function called `Collect` that can be called by anyone, including malicious users. The `Collect` function transfers Ether from one address to another, but it does not check whether the recipient address has enough balance before transferring. This means that an attacker can exploit this vulner"
+    },
+    "time_taken": "10.3419s"
+  },
+  {
+    "test": 16,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_front_running_ERC20.sol_ERC20.json.sol",
+    "analysis": {
+      "raw_response": "  Here is the analysis of the provided smart contract file:\n\nThe contract contains several functions, including `balanceOf`, `transfer`, `allowance`, and `transferFrom`. These functions are similar to the ERC-20 token standard. The contract also includes a function selector for handling function calls.\n\nThere are several potential vulnerabilities in the contract:\n\n1. Reentrancy: The contract does not include any reentrancy locks,"
+    },
+    "time_taken": "10.4792s"
+  },
+  {
+    "test": 17,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_short_addresses_short_address_example.sol_MyToken.json.sol",
+    "analysis": {
+      "raw_response": "  Rating: SAFE\nVulnerability Type: None"
+    },
+    "time_taken": "3.3279s"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "test": 102,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_front_running_ERC20.sol_SafeMath.json.sol",
+    "analysis": {
+      "raw_response": "**Rating: VULNERABLE**\n\n**Category: unchecked_low_level_calls**\n\nI found a vulnerability in the function `__function_selector__()` where the `revert()` function is called without checking the return value. This could allow an attacker to cause the contract to revert unexpectedly, which could be used to disrupt the contract's functionality or to steal funds.\n\n**Recommendation:** The developer should check the return value of the `revert()` function before returning from the `__function_selector__()` function. This will ensure that the contract only reverts if the call to the `revert()` function was successful."
+    },
+    "time_taken": "18.5359s"
+  },
+  {
+    "test": 103,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0x3e013fc32a54c4c5b6991ba539dcd0ec4355c859.sol_MultiplicatorX4.json.sol",
+    "analysis": {
+      "raw_response": "Response Error: b')]}\\'\\n\\n38\\n[[\"wrb.fr\",null,null,null,null,[8]]]\\n56\\n[[\"di\",72],[\"af.httprm\",71,\"-4070890795286235191\",21]]\\n25\\n[[\"e\",4,null,null,131]]\\n'. \nUnable to get response.\nPlease double-check the cookie values and verify your network environment or google account."
+    },
+    "time_taken": "0.7112s"
+  },
+  {
+    "test": 104,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol_daoPOLSKAtokens.json.sol",
+    "analysis": {
+      "raw_response": "Response Error: b')]}\\'\\n\\n38\\n[[\"wrb.fr\",null,null,null,null,[3]]]\\n57\\n[[\"di\",130],[\"af.httprm\",130,\"-8712489890735432638\",6]]\\n25\\n[[\"e\",4,null,null,132]]\\n'. \nUnable to get response.\nPlease double-check the cookie values and verify your network environment or google account."
+    },
+    "time_taken": "0.7912s"
+  }
+]

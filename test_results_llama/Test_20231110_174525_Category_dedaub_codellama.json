@@ -1,0 +1,42 @@
+[
+  {
+    "test": 1,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_reentrancy_0x941d225236464a25eb18076df7da6a91d0f95e9e.sol_Log.json.sol",
+    "analysis": {
+      "raw_response": "  \n[PYTHON]\ndef get_vulnerability_rating():\n    #rate the vulnerability of the contract using custom rules\n    return \"SAFE\"\n[/PYTHON]\n"
+    },
+    "time_taken": "12.9758s"
+  },
+  {
+    "test": 2,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0xb0510d68f210b7db66e8c7c814f22680f2b8d1d6.sol_Puppet.json.sol",
+    "analysis": {
+      "raw_response": "  Here's the analysis of the smart contract in API JSON format:\n```json\n{\n    \"Rating\": \"VULNERABLE\",\n    \"Vulnerability Type\": \"Reentrancy\"\n}\n```\nThe contract contains a reentrancy vulnerability. The `withdraw()` function calls another contract and transfers the entire balance of the current contract to that other contract. If that other contract has a fallback function that also calls back into this contract, it can cause recursive calling and lead to unintended behavior. To mitigate this vulnerability, consider using a reentrancy guard such as OpenZeppelin's `ReentrancyGuard` or implement your own mechanism to prevent recursive calling."
+    },
+    "time_taken": "12.9576s"
+  },
+  {
+    "test": 3,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0x52d2e0f9b01101a59b38a3d05c80b7618aeed984.sol_EtherGet.json.sol",
+    "analysis": {
+      "raw_response": "  Rating: VULNERABLE\nVulnerability Type: Reentrancy\n\nThe smart contract has a reentrancy vulnerability in the `withdrawTokens` function. The function calls an external contract's `transfer` function, which could call back into the `withdrawTokens` function again before it returns, causing unintended side effects. To fix this vulnerability, you can use a reentrancy guard to prevent multiple withdrawals from the same account in a single block."
+    },
+    "time_taken": "10.1416s"
+  },
+  {
+    "test": 4,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_reentrancy_0x627fa62ccbb1c1b04ffaecd72a53e37fc0e17839.sol_TokenBank.json.sol",
+    "analysis": {
+      "raw_response": "  As a blockchain smart contract analyzer, I have analyzed the given solidity code and identified several vulnerabilities. The contract is vulnerable to reentrancy attacks, unchecked low-level calls, arithmetic integer overflow, denial of service, access control, bad randomness, front running, short address, time manipulation, and other issues.\n\nThe contract's functions can be classified into several categories based on their functionality:\n\n1. Deposit Functionality: This function allows users to deposit Ether into the contract. The minimum deposit amount is set by the owner of the contract, and any deposit below this amount will not be accepted. The deposited Ether is stored in a mapping called `_fallback`, with the user's address as the key and the deposited amount as the value.\n2. Withdrawal Functionality: This function allows the owner of the contract to withdraw tokens from any holder of the token. The function takes three arguments: `address varg0` (the address of the token to be withdrawn), `uint256 varg1` (the amount of tokens to be withdrawn), and `address varg2` (the address to send the withdrawn tokens). If the owner is not the sender of the transaction, the function will revert.\n3. Holders Functionality: This function allows anyone to check the balance of a particular holder in the contract. The function takes one argument: `address varg0` (the address of the holder to be checked). The function returns the balance of the holder in wei.\n4. WithdrawToHolder Functionality: This function allows the owner of the contract to withdraw tokens from any holder to another address. The function takes three arguments: `address varg0` (the address of the token to be withdrawn), `uint256 varg1` (the amount of tokens to be withdrawn), and `address varg2` (the address to send the withdrawn tokens). If the owner is not the sender of the transaction, or if the holder's balance is zero, the function will revert.\n5. MinDeposit Functionality: This function allows anyone to check the minimum deposit amount required for a deposit into the contract. The function takes no arguments and returns the minimum deposit amount in wei."
+    },
+    "time_taken": "49.0390s"
+  },
+  {
+    "test": 5,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_access_control_unprotected0.sol_Unprotected.json.sol",
+    "analysis": {
+      "raw_response": "  Rating: VULNERABLE\nVulnerability Type: Reentrancy\n\nThe given smart contract is vulnerable to reentrancy attacks. The `changeOwner` function allows any user to change the owner of the contract without any restrictions, which can be exploited by a malicious actor to drain the contract's funds.\n\nThe `changeOwner` function does not have any checks on who can call it or what parameters are passed in. This means that an attacker could repeatedly call the `changeOwner` function with their own address as the new owner, effectively draining the contract's funds by redirecting the transfer of ownership to themselves.\n\nTo mitigate this vulnerability, you should add a check to ensure that only the current owner can change the ownership of the contract. Additionally, you should use the `transfer` function instead of `send` to prevent reentrancy attacks."
+    },
+    "time_taken": "14.3106s"
+  }
+]

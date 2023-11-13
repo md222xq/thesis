@@ -1,0 +1,34 @@
+[
+  {
+    "test": 1,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_reentrancy_0x941d225236464a25eb18076df7da6a91d0f95e9e.sol_Log.json.sol",
+    "analysis": {
+      "raw_response": "  \"analysis\": {\n\"rating\": \"VULNERABLE\",\n\"vulnerability_category\": \"reentrancy\"\n}"
+    },
+    "time_taken": "10.8770s"
+  },
+  {
+    "test": 2,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0xb0510d68f210b7db66e8c7c814f22680f2b8d1d6.sol_Puppet.json.sol",
+    "analysis": {
+      "raw_response": "  I analyzed the smart contract for potential vulnerabilities. Here is my analysis result in API JSON format:\n\n{\n\"analysis\": \"VULNERABLE\",\n\"vulnerability_category\": \"unchecked_low_level_calls\"\n}\n\nThe smart contract has a vulnerability related to unchecked low-level calls, specifically in the withdraw function. The vulnerability arises when the call function is used without proper checks for its return value or"
+    },
+    "time_taken": "9.0590s"
+  },
+  {
+    "test": 3,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0x52d2e0f9b01101a59b38a3d05c80b7618aeed984.sol_EtherGet.json.sol",
+    "analysis": {
+      "raw_response": "  Analysis:\nRating: VULNERABLE\nVulnerability Category: unchecked_low_level_calls\n\nThe smart contract contains several calls to external contracts using the .call() function, which are not checked for failure. An attacker could potentially exploit these vulnerabilities by causing a failure in one of the called contracts, leading to a denial of service or unintended behavior in the affected contract. To mitigate this risk, it"
+    },
+    "time_taken": "9.6147s"
+  },
+  {
+    "test": 4,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_reentrancy_0x627fa62ccbb1c1b04ffaecd72a53e37fc0e17839.sol_TokenBank.json.sol",
+    "analysis": {
+      "raw_response": "  \n[PYTHON]\ndef analyze_contract(contract_code):\n    # Analyze the contract code and return the analysis results\n    return {\n        \"rating\": \"SAFE\" if is_safe(contract_code) else \"VULNERABLE\",\n        \"vulnerability_category\": get_vulnerability_category(contract_code)\n    }\n\ndef is_safe(contract"
+    },
+    "time_taken": "11.9325s"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "test": 1,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_unchecked_low_level_calls_0xb0510d68f210b7db66e8c7c814f22680f2b8d1d6.sol_Puppet.json.sol",
+    "analysis": {
+      "raw_response": "  Rating: VULNERABLE\nVulnerability Type: unchecked_low_level_calls"
+    },
+    "time_taken": "3.9575s"
+  },
+  {
+    "test": 2,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_reentrancy_0x627fa62ccbb1c1b04ffaecd72a53e37fc0e17839.sol_TokenBank.json.sol",
+    "analysis": {
+      "raw_response": "  \n[PYTHON]\ndef analyze_contract():\n    # Analyze the contract for vulnerabilities\n    return \"VULNERABLE\"\n[/PYTHON]\n"
+    },
+    "time_taken": "7.0186s"
+  },
+  {
+    "test": 3,
+    "file_path": "./Contracts/Decompiled/Dedaub/SmartBugs/dedaub_access_control_unprotected0.sol_Unprotected.json.sol",
+    "analysis": {
+      "raw_response": "  Rating: VULNERABLE\nVulnerability Type: Reentrancy\n\nThe smart contract is vulnerable to reentrancy due to the use of a public function that can be called by anyone. The `changeOwner` function allows anyone to change the owner of the contract, which could lead to unexpected behavior if the new owner has malicious intentions. Additionally, the use of a public payable function without any access control or restrictions can also lead to denial of service attacks or other types of attacks.\n\nIt is recommended to make the `changeOwner` function private and only accessible by the current owner of the contract. Additionally, it would be a good practice to use access control mechanisms such as modifiers or roles to restrict access to sensitive functions."
+    },
+    "time_taken": "12.5901s"
+  }
+]
